@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "project": "vendor/realme/porsche",
+  "scope": "Restore from copied Git metadata with global/system Git configuration disabled, hooks excluded, no working files copied, and LFS HTTP endpoint deliberately unreachable. Cached modem payload restored and tracked status clean. Originals untouched.",
+  "modem_sha256": "3ecbcaf2d4bf3bfa9f2f1575ff79b4a1ff5dd40f293abafb03499dc6a51b42b7",
+  "bytes": 214642688,
+  "lfs_checkout": "Checking out LFS objects: 100% (17/17), 215 MB | 0 B/s, done."
+}

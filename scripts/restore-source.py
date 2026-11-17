@@ -115,6 +115,10 @@ def main():
             subprocess.run(command + ["restore", "--source=HEAD", "--worktree", "--", "."],
                            check=True, env=environment)
             if project.get("lfs_files"):
+                # Source recovery excludes the host's global Git configuration.
+                # Install local filters so checkout hydrates the archived cache.
+                subprocess.run(command + ["lfs", "install", "--local"],
+                               check=True, env=environment)
                 # checkout uses the archived media cache and does not fetch.
                 subprocess.run(command + ["lfs", "checkout"], check=True, env=environment)
                 for entry in project["lfs_files"]:

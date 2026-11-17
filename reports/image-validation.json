@@ -1,0 +1,94 @@
+{
+  "pass": true,
+  "kernel_release": "5.4.302-qgki-gbc840733591d",
+  "boot_and_vendor_boot_header_version": 3,
+  "kernel_payload_matches_build": true,
+  "vendor_boot_dtb_matches_build": true,
+  "fstab_paths": [
+    "first_stage_ramdisk/system/etc/fstab.qcom"
+  ],
+  "fstab_matches_primary_A17": true,
+  "boot_modules": [
+    "adsp_loader_dlkm.ko",
+    "apr_dlkm.ko",
+    "msm_drm.ko",
+    "q6_notifier_dlkm.ko",
+    "q6_pdr_dlkm.ko",
+    "snd_event_dlkm.ko"
+  ],
+  "ramdisk_module_load_lists": {
+    "lib/modules/modules.load": "adsp_loader_dlkm.ko\napr_dlkm.ko\nmsm_drm.ko\nq6_notifier_dlkm.ko\nq6_pdr_dlkm.ko\nsnd_event_dlkm.ko\n",
+    "lib/modules/modules.load.recovery": "adsp_loader_dlkm.ko\nmsm_drm.ko\n"
+  },
+  "vendor_dlkm_module_count": 88,
+  "all_module_vermagic_matches_kernel": true,
+  "vendor_boot_dependency_closure": true,
+  "vendor_dlkm_dependency_closure": true,
+  "vendor_boot_depmod_nodes": 6,
+  "vendor_dlkm_depmod_nodes": 88,
+  "vendor_dlkm_load_count": 82,
+  "all_boot_module_vermagic_matches_kernel": true,
+  "wlan_alias_present": true,
+  "porsche_dtbs": [
+    {
+      "file": "porsche-lahaina-v2.1.dtb",
+      "bytes": 477044,
+      "sha256": "b96309378c3c0477fa7ccfdbc5df7c3e17e89cd2018c9b30603b1c10798300cd"
+    },
+    {
+      "file": "porsche-lahaina-v2.dtb",
+      "bytes": 477052,
+      "sha256": "0d4846cff11cdb285eec1a9186717c8abfe4503c9c4b377d77decbdcbe7547e6"
+    },
+    {
+      "file": "porsche-lahaina.dtb",
+      "bytes": 466419,
+      "sha256": "af1e7a960d0bb27b2644c6a779be57e52e83d7e048c56dcae339bb21a47a193a"
+    }
+  ],
+  "dtbo_table_entries": 14,
+  "dtbo_table_bytes": 16126038,
+  "porsche_dtbos": [
+    {
+      "file": "porsche-21617-lahaina-overlay.dtbo",
+      "bytes": 1145062,
+      "sha256": "4050e0290acdc0472eaa00b71931c8cb40132cd1dd9739a97ef4e59e6d2fc731"
+    },
+    {
+      "file": "porsche-21617-lahaina-v2.1-overlay.dtbo",
+      "bytes": 1145070,
+      "sha256": "6f533c12816c3975179d03216c787e58110301adba542a7a1928c31394592865"
+    }
+  ],
+  "images": [
+    {
+      "file": "boot.img",
+      "bytes": 201326592,
+      "partition_limit": 201326592,
+      "sha256": "6ae831a2a5c1237374cd058d50178c22114bf341bbbf41d8d89567d54bfe318d"
+    },
+    {
+      "file": "vendor_boot.img",
+      "bytes": 201326592,
+      "partition_limit": 201326592,
+      "sha256": "b8714a1026351bba219647e1d28464d04abe5fb94390208e3e86f5ecb40bb30e"
+    },
+    {
+      "file": "dtbo.img",
+      "bytes": 25165824,
+      "partition_limit": 25165824,
+      "sha256": "5781cfa98fd6798f9fe70ee4cb15fc1707b762099bdaf05d39022081857256ba"
+    },
+    {
+      "file": "vendor_dlkm.img",
+      "bytes": 13754368,
+      "partition_limit": null,
+      "sha256": "f775ea600c89264560faf498dfd5e652dac17f3ec3ded16fcffbb5ab253c8745"
+    }
+  ],
+  "erofs_check": "PASS, fsck.erofs --extract",
+  "avb_boot_security_patch": "2025-04-01",
+  "avb_boot_security_patch_matches_primary_A17": true,
+  "inspection_directory": ".repo/porsche-image-validation-7zakzx58",
+  "scope": "Generated-image consistency; no device boot or runtime hardware test."
+}

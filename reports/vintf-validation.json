@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "framework_consistency_exit": 0,
+  "vendor_consistency_exit": 0,
+  "full_compatibility_exit": 0,
+  "kernel_requirements_checked": true,
+  "kernel_version": "5.4.302-qgki-gbc840733591d",
+  "shipping_api": 30,
+  "boot_skus": "Empty default ODM/vendor SKUs, exactly matching the native build check.",
+  "logs": {
+    ".repo/porsche-shiva-vintf-direct.log": "94d4cf53a79d83063b1fe726d4899188833164b21bb315b5b910c53f0877e57a"
+  },
+  "full_command": [
+    "out/host/linux-x86/bin/checkvintf",
+    "--check-compat",
+    "--kernel",
+    "out/target/product/porsche/obj/PACKAGING/check_vintf_all_intermediates/kernel_version.txt:out/target/product/porsche/obj/PACKAGING/check_vintf_all_intermediates/kernel_configs.txt",
+    "--dirmap",
+    "/system:out/target/product/porsche/system",
+    "--dirmap",
+    "/vendor:out/target/product/porsche/vendor",
+    "--dirmap",
+    "/odm:out/target/product/porsche/odm",
+    "--dirmap",
+    "/product:out/target/product/porsche/product",
+    "--dirmap",
+    "/system_ext:out/target/product/porsche/system_ext",
+    "--dirmap",
+    "/apex:out/target/product/porsche/obj/PACKAGING/check_vintf_all_intermediates/apex",
+    "--property",
+    "ro.product.first_api_level=30",
+    "--property",
+    "ro.boot.product.hardware.sku=",
+    "--property",
+    "ro.boot.product.vendor.sku="
+  ],
+  "scope": "Direct checks against the assembled target partition trees, not device runtime.",
+  "native_build": {
+    "exit": 0,
+    "log": ".repo/porsche-shiva-ota-01.log",
+    "targets": [
+      "otapackage",
+      "check-vintf-all",
+      "selinux_policy"
+    ]
+  }
+}

@@ -1,0 +1,1793 @@
+{
+  "decision": "Keep the ported PixelOS-AOSP tree at hardware/oplus. Penguin is not the best complete replacement for Porsche because required primary HAL implementations are absent.",
+  "missing_required_penguin_modules": [
+    "audio_amplifier.qcom",
+    "vendor.lineage.touch-service.oplus",
+    "vendor.lineage.livedisplay-service.oplus"
+  ],
+  "penguin_removal_commit": "f90ff97",
+  "pixel_reference_path_note": "The original A17 reference was already promoted to hardware/oplus; hardware/oplus-a17-ref is not a second checkout. Upstream baseline ff49635 is retained in Git.",
+  "repositories": {
+    "PixelOS active": {
+      "path": "hardware/oplus",
+      "remote": "https://github.com/PixelOS-AOSP/android_hardware_oplus",
+      "branch": "a17-port",
+      "commit": "da1b5cc6b9e1d844c65941bcb2219ff5f8549499",
+      "shallow": false,
+      "namespaces": {
+        ".": [
+          "device/oneplus/sm8350-common"
+        ],
+        "overlay/qssi": [],
+        "overlay/generic": []
+      },
+      "policy_hooks": [
+        "sepolicy/qti/SEPolicy.mk"
+      ],
+      "vintf": {
+        "packages/Keyboard/AndroidManifest.xml": [],
+        "packages/IFAAService/AndroidManifest.xml": [],
+        "packages/Euicc/AndroidManifest.xml": [],
+        "packages/Doze/AndroidManifest.xml": [],
+        "packages/EuiccPolicy/AndroidManifest.xml": [],
+        "packages/KeyHandler/AndroidManifest.xml": [],
+        "packages/eSimSwitcher/AndroidManifest.xml": [],
+        "packages/Pen/AndroidManifest.xml": [],
+        "vintf/device_framework_matrix.xml": [
+          {
+            "name": "android.hardware.media.c2",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.dolby.dvs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.dolby.dvs",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.appradioaidl",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.appradio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.biometrics.fingerprint",
+            "format": "hidl",
+            "versions": [
+              "2.1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.biometrics.fingerprintpay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera.aon",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera.aon",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera_rfi",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cameraextension",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cameraMDM",
+            "format": "hidl",
+            "versions": [
+              "1.0",
+              "2.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cammidasservice",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.charger",
+            "format": "aidl",
+            "versions": [
+              "1-11"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.communicationcenter",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cwb",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cwb",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.display.MixLut3D",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.displaycolorfeature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.displaypanelfeature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.esim",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.ims",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.ims",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.oplusSensor",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.oplusSensor",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.osense.client",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.performance",
+            "format": "aidl",
+            "versions": [
+              "1-4"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.pogo_keyboard",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.audio",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.rsmc",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.zb",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.secure_element",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.sendextcamcmd",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.stability.oplus_project",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_imsrtp",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_interface.subsys",
+            "format": "aidl",
+            "versions": [
+              "1-5"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_interface.subsys_radio",
+            "format": "aidl",
+            "versions": [
+              "1-9"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_radio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.touch",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.urcc",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.display",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.display",
+            "format": "hidl",
+            "versions": [
+              "1.0-2"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.feature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.feature",
+            "format": "hidl",
+            "versions": [
+              "1.0-1"
+            ]
+          },
+          {
+            "name": "vendor.zeku.hardware.explorer",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          }
+        ],
+        "hidl/commondcs/vendor.oplus.hardware.commondcs@1.0-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          }
+        ],
+        "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml": [
+          {
+            "name": "android.hardware.biometrics.fingerprint",
+            "format": "hidl",
+            "versions": [
+              "2.3"
+            ]
+          }
+        ],
+        "hidl/dolby/codec2/vendor.dolby.media.c2@1.0-service.xml": [
+          {
+            "name": "android.hardware.media.c2",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          }
+        ],
+        "overlay/qssi/TelephonyResCommon/AndroidManifest.xml": [],
+        "overlay/qssi/FrameworksResCommon/AndroidManifest.xml": [],
+        "overlay/qssi/SystemUIResCommon/AndroidManifest.xml": [],
+        "overlay/qssi/OPlusWifiResCommon/AndroidManifest.xml": [],
+        "overlay/qssi/WifiResCommon/AndroidManifest.xml": [],
+        "overlay/generic/FrameworksResGeneric/AndroidManifest.xml": [],
+        "overlay/generic/SettingsProviderResGeneric/AndroidManifest.xml": [],
+        "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-pa.xml": [
+          {
+            "name": "vendor.lineage.livedisplay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-se.xml": [
+          {
+            "name": "vendor.lineage.livedisplay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-ab.xml": [
+          {
+            "name": "vendor.lineage.livedisplay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-af.xml": [
+          {
+            "name": "vendor.lineage.livedisplay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-dm.xml": [
+          {
+            "name": "vendor.lineage.livedisplay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/touch/vendor.lineage.touch-service.oplus-tg.xml": [
+          {
+            "name": "vendor.lineage.touch",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/touch/vendor.lineage.touch-service.oplus-gm.xml": [
+          {
+            "name": "vendor.lineage.touch",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/touch/vendor.lineage.touch-service.oplus-htpr.xml": [
+          {
+            "name": "vendor.lineage.touch",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/ir/android.hardware.ir-service.xml": [
+          {
+            "name": "android.hardware.ir",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/commondcs/vendor.oplus.hardware.commondcs-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/sensors/android.hardware.sensors.oplus-multihal.xml": [
+          {
+            "name": "android.hardware.sensors",
+            "format": "aidl",
+            "versions": [
+              "3"
+            ]
+          }
+        ],
+        "aidl/powershare/vendor.lineage.powershare-service.oplus.xml": [
+          {
+            "name": "vendor.lineage.powershare",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/performance/vendor.oplus.hardware.performance-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.performance",
+            "format": "aidl",
+            "versions": [
+              "3"
+            ]
+          }
+        ],
+        "aidl/vibrator/qti/vendor.qti.hardware.vibrator.service.oplus.xml": [
+          {
+            "name": "android.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/vibrator/richtap/android.hardware.vibrator.service.oplus-richtap.xml": [
+          {
+            "name": "android.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          }
+        ],
+        "aidl/osense-client/vendor.oplus.hardware.osense.client-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.osense.client",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ]
+      },
+      "components": {
+        "touch": {
+          "present": true,
+          "modules": {
+            "vendor.lineage.touch-service.oplus": "aidl/touch/Android.bp",
+            "vendor.oplus.hardware.touch-headers": "aidl/touch/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/touch/vendor.lineage.touch-service.oplus-tg.xml",
+            "aidl/touch/vendor.lineage.touch-service.oplus-gm.xml",
+            "aidl/touch/vendor.lineage.touch-service.oplus-htpr.xml"
+          ]
+        },
+        "fingerprint": {
+          "present": true,
+          "modules": {
+            "libudfps_extension.oplus": "fingerprint/Android.bp",
+            "libshims_aidl_fingerprint.oplus_defaults": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v2.oplus": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v3.oplus": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v4.oplus": "fingerprint/shims/Android.bp",
+            "libshims_fingerprint.oplus": "fingerprint/shims/Android.bp",
+            "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+            "qwerty.kl": "hidl/fingerprint/Android.bp"
+          },
+          "vintf_files": [
+            "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml"
+          ]
+        },
+        "livedisplay": {
+          "present": true,
+          "modules": {
+            "vendor.lineage.livedisplay-oplus-ab": "aidl/livedisplay/Android.bp",
+            "vendor.lineage.livedisplay-oplus-af": "aidl/livedisplay/Android.bp",
+            "vendor.lineage.livedisplay-oplus-dm": "aidl/livedisplay/Android.bp",
+            "vendor.lineage.livedisplay-oplus-se": "aidl/livedisplay/Android.bp",
+            "vendor.lineage.livedisplay-oplus-headers": "aidl/livedisplay/Android.bp",
+            "vendor.lineage.livedisplay-service.oplus": "aidl/livedisplay/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-pa.xml",
+            "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-se.xml",
+            "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-ab.xml",
+            "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-af.xml",
+            "aidl/livedisplay/vendor.lineage.livedisplay-service.oplus-dm.xml"
+          ]
+        },
+        "vibrator": {
+          "present": true,
+          "modules": {
+            "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/qti/Android.bp",
+            "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/qti/Android.bp",
+            "liboplusvibratoreffect": "aidl/vibrator/qti/effect/Android.bp",
+            "android.hardware.vibrator.service.oplus-richtap": "aidl/vibrator/richtap/Android.bp",
+            "libaacvibrator": "aidl/vibrator/richtap/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/vibrator/qti/vendor.qti.hardware.vibrator.service.oplus.xml",
+            "aidl/vibrator/richtap/android.hardware.vibrator.service.oplus-richtap.xml"
+          ]
+        },
+        "sensors / fusionlight": {
+          "present": true,
+          "modules": {
+            "sensors.oplus": "sensors/udfps/Android.bp",
+            "sensors.ssc_custom_flag": "sensors/custom_flag/Android.bp",
+            "sensors.fusionlight": "sensors/fusionlight/Android.bp",
+            "android.hardware.sensors-service.oplus-multihal": "aidl/sensors/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/sensors/android.hardware.sensors.oplus-multihal.xml"
+          ]
+        },
+        "ltpo": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "nrmodeswitcher": {
+          "present": true,
+          "modules": {
+            "nrmodeswitcher": "nrmodeswitcher/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "hbp-daemon": {
+          "present": true,
+          "modules": {
+            "hbp-setup": "hbp-daemon/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "oplus-fwk": {
+          "present": true,
+          "modules": {
+            "oplus-fwk": "oplus-fwk/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "rfs": {
+          "present": true,
+          "modules": {
+            "rfs_mdm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+            "rfs_msm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "usb": {
+          "present": true,
+          "modules": {
+            "oplus_usb_compositions.conf": "usb/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "wvmkiller": {
+          "present": true,
+          "modules": {
+            "wvmkiller": "wvmkiller/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "extract-utils-ext": {
+          "present": true,
+          "modules": {},
+          "vintf_files": []
+        },
+        "audio amplifier": {
+          "present": true,
+          "modules": {
+            "audio_amplifier.qcom": "audio_amplifier/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "overlays": {
+          "present": true,
+          "modules": {
+            "TelephonyResCommon": "overlay/qssi/TelephonyResCommon/Android.bp",
+            "FrameworksResCommon": "overlay/qssi/FrameworksResCommon/Android.bp",
+            "SystemUIResCommon": "overlay/qssi/SystemUIResCommon/Android.bp",
+            "OPlusWifiResCommon": "overlay/qssi/OPlusWifiResCommon/Android.bp",
+            "WifiResCommon": "overlay/qssi/WifiResCommon/Android.bp",
+            "FrameworksResGeneric": "overlay/generic/FrameworksResGeneric/Android.bp",
+            "SettingsProviderResGeneric": "overlay/generic/SettingsProviderResGeneric/Android.bp"
+          },
+          "vintf_files": [
+            "overlay/qssi/TelephonyResCommon/AndroidManifest.xml",
+            "overlay/qssi/FrameworksResCommon/AndroidManifest.xml",
+            "overlay/qssi/SystemUIResCommon/AndroidManifest.xml",
+            "overlay/qssi/OPlusWifiResCommon/AndroidManifest.xml",
+            "overlay/qssi/WifiResCommon/AndroidManifest.xml",
+            "overlay/generic/FrameworksResGeneric/AndroidManifest.xml",
+            "overlay/generic/SettingsProviderResGeneric/AndroidManifest.xml"
+          ]
+        }
+      },
+      "modules": {
+        "hidl_oplus_cameraextension_interface": "Android.bp",
+        "hidl_pixelworks_feature_interface": "Android.bp",
+        "hidl_zeku_explorer_interface": "Android.bp",
+        "vendor.oplus": "interfaces/Android.bp",
+        "vendor.oplus.hardware.appradioaidl": "interfaces/Android.bp",
+        "vendor.oplus.hardware.biometrics.fingerprintpay": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera.aon": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera_rfi": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cameraextension": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cammidasservice": "interfaces/Android.bp",
+        "vendor.oplus.hardware.charger": "interfaces/Android.bp",
+        "vendor.oplus.hardware.commondcs": "interfaces/Android.bp",
+        "vendor.oplus.hardware.communicationcenter": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cwb": "interfaces/Android.bp",
+        "vendor.oplus.hardware.displaycolorfeature": "interfaces/Android.bp",
+        "vendor.oplus.hardware.ims": "interfaces/Android.bp",
+        "vendor.oplus.hardware.display.MixLut3D": "interfaces/Android.bp",
+        "vendor.oplus.hardware.displaypanelfeature": "interfaces/Android.bp",
+        "vendor.oplus.hardware.esim": "interfaces/Android.bp",
+        "vendor.oplus.hardware.olc2": "interfaces/Android.bp",
+        "vendor.oplus.hardware.oplusSensor": "interfaces/Android.bp",
+        "vendor.oplus.hardware.osense.client": "interfaces/Android.bp",
+        "vendor.oplus.hardware.performance": "interfaces/Android.bp",
+        "vendor.oplus.hardware.pogo_keyboard": "interfaces/Android.bp",
+        "vendor.oplus.hardware.radio": "interfaces/Android.bp",
+        "vendor.oplus.hardware.secure_element": "interfaces/Android.bp",
+        "vendor.oplus.hardware.sendextcamcmd": "interfaces/Android.bp",
+        "vendor.oplus.hardware.stability.oplus_project": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys_imsrtp": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys_radio": "interfaces/Android.bp",
+        "vendor.oplus.hardware.touch": "interfaces/Android.bp",
+        "vendor.oplus.hardware.urcc": "interfaces/Android.bp",
+        "vendor.oplus.hardware.ndk_platform_shim_defaults": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera.aon-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cameraextension-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cammidasservice-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.commondcs-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.olc2-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.osense.client-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.performance-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.radio-V2-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cwb@1.0": "interfaces/oplus/hardware/cwb/1.0/Android.bp",
+        "vendor.oplus.hardware.commondcs@1.0": "interfaces/oplus/hardware/commondcs/1.0/Android.bp",
+        "vendor.oplus.hardware.displaypanelfeature@1.0": "interfaces/oplus/hardware/displaypanelfeature/1.0/Android.bp",
+        "vendor.oplus.hardware.biometrics.fingerprint@2.1": "interfaces/oplus/hardware/biometrics/fingerprint/2.1/Android.bp",
+        "oplus_usb_compositions.conf": "usb/Android.bp",
+        "OplusKeyboard": "packages/Keyboard/Android.bp",
+        "default-permissions_org.lineageos.keyboard": "packages/Keyboard/Android.bp",
+        "IFAAService": "packages/IFAAService/Android.bp",
+        "OplusEuicc": "packages/Euicc/Android.bp",
+        "EuiccPolicyOplus": "packages/Euicc/Android.bp",
+        "OplusDoze": "packages/Doze/Android.bp",
+        "EuiccPolicy": "packages/EuiccPolicy/Android.bp",
+        "hidden-api-whitelist-org.lineageos.euicc.xml": "packages/EuiccPolicy/Android.bp",
+        "KeyHandler": "packages/KeyHandler/Android.bp",
+        "tri-state-key-calibrate": "packages/KeyHandler/Android.bp",
+        "OplusEsimSwitcher": "packages/eSimSwitcher/Android.bp",
+        "OplusPen": "packages/Pen/Android.bp",
+        "default-permissions_org.lineageos.pen": "packages/Pen/Android.bp",
+        "kernel_headers.oplus": "kernel-headers/Android.bp",
+        "hbp-setup": "hbp-daemon/Android.bp",
+        "libudfps_extension.oplus": "fingerprint/Android.bp",
+        "libshims_aidl_fingerprint.oplus_defaults": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v2.oplus": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v3.oplus": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v4.oplus": "fingerprint/shims/Android.bp",
+        "libshims_fingerprint.oplus": "fingerprint/shims/Android.bp",
+        "nrmodeswitcher": "nrmodeswitcher/Android.bp",
+        "vendor.oplus.hardware.commondcs@1.0-service": "hidl/commondcs/Android.bp",
+        "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+        "qwerty.kl": "hidl/fingerprint/Android.bp",
+        "dolbycodec2": "hidl/dolby/codec2/Android.bp",
+        "rfs_mdm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+        "rfs_msm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+        "oplus-fwk": "oplus-fwk/Android.bp",
+        "sensors.oplus": "sensors/udfps/Android.bp",
+        "sensors.ssc_custom_flag": "sensors/custom_flag/Android.bp",
+        "sensors.fusionlight": "sensors/fusionlight/Android.bp",
+        "wvmkiller": "wvmkiller/Android.bp",
+        "liboplus-uah-client": "uah-client/Android.bp",
+        "TelephonyResCommon": "overlay/qssi/TelephonyResCommon/Android.bp",
+        "FrameworksResCommon": "overlay/qssi/FrameworksResCommon/Android.bp",
+        "SystemUIResCommon": "overlay/qssi/SystemUIResCommon/Android.bp",
+        "OPlusWifiResCommon": "overlay/qssi/OPlusWifiResCommon/Android.bp",
+        "WifiResCommon": "overlay/qssi/WifiResCommon/Android.bp",
+        "FrameworksResGeneric": "overlay/generic/FrameworksResGeneric/Android.bp",
+        "SettingsProviderResGeneric": "overlay/generic/SettingsProviderResGeneric/Android.bp",
+        "audio_amplifier.qcom": "audio_amplifier/Android.bp",
+        "power-ext-oplus": "power/Android.bp",
+        "vendor.lineage.livedisplay-oplus-ab": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.livedisplay-oplus-af": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.livedisplay-oplus-dm": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.livedisplay-oplus-se": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.livedisplay-oplus-headers": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.livedisplay-service.oplus": "aidl/livedisplay/Android.bp",
+        "vendor.lineage.touch-service.oplus": "aidl/touch/Android.bp",
+        "vendor.oplus.hardware.touch-headers": "aidl/touch/Android.bp",
+        "android.hardware.ir-service.oplus": "aidl/ir/Android.bp",
+        "vendor.oplus.hardware.commondcs-service": "aidl/commondcs/Android.bp",
+        "android.hardware.sensors-service.oplus-multihal": "aidl/sensors/Android.bp",
+        "vendor.lineage.powershare-service.oplus": "aidl/powershare/Android.bp",
+        "vendor.oplus.hardware.performance-service": "aidl/performance/Android.bp",
+        "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/qti/Android.bp",
+        "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/qti/Android.bp",
+        "liboplusvibratoreffect": "aidl/vibrator/qti/effect/Android.bp",
+        "android.hardware.vibrator.service.oplus-richtap": "aidl/vibrator/richtap/Android.bp",
+        "libaacvibrator": "aidl/vibrator/richtap/Android.bp",
+        "vendor.oplus.hardware.osense.client-service": "aidl/osense-client/Android.bp"
+      }
+    },
+    "Penguin celerity": {
+      "path": "hardware/oplus-penguin",
+      "remote": "https://github.com/Project-PenguinOS/hardware_oplus",
+      "branch": "celerity",
+      "commit": "81e2ad902b8e8396ef1ce1a99a9439897e7ba01a",
+      "shallow": false,
+      "namespaces": {
+        ".": [],
+        "overlay": []
+      },
+      "policy_hooks": [
+        "sepolicy/qti/SEPolicy.mk",
+        "sepolicy/common/SEPolicy.mk"
+      ],
+      "vintf": {
+        "packages/IFAAService/AndroidManifest.xml": [],
+        "packages/OplusPermissions/AndroidManifest.xml": [],
+        "packages/KeyHandler/AndroidManifest.xml": [],
+        "packages/Pen/AndroidManifest.xml": [],
+        "ltpo/AndroidManifest.xml": [],
+        "vintf/device_framework_matrix.xml": [
+          {
+            "name": "android.hardware.media.c2",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.dolby.dvs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.dolby.dvs",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.aac.hardware.richtap.vibrator",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.appradioaidl",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.appradio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.biometrics.fingerprint",
+            "format": "hidl",
+            "versions": [
+              "2.1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.biometrics.fingerprintpay",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera.aon",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera.aon",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.camera_rfi",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cameraextension",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cameraMDM",
+            "format": "hidl",
+            "versions": [
+              "1.0",
+              "2.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cammidasservice",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.charger",
+            "format": "aidl",
+            "versions": [
+              "1-11"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.communicationcenter",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cryptoeng",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cwb",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.cwb",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.display.MixLut3D",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.displaycolorfeature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.displaypanelfeature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.esim",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.ims",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.ims",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.oplusSensor",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.oplusSensor",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.oplusvibrator",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.osense.client",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.performance",
+            "format": "aidl",
+            "versions": [
+              "1-4"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.pogo_keyboard",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.audio",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.rsmc",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.radio.satellite.zb",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.secure_element",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.sendextcamcmd",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.stability.oplus_project",
+            "format": "aidl",
+            "versions": [
+              "1-3"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_imsrtp",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_interface.subsys",
+            "format": "aidl",
+            "versions": [
+              "1-5"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_interface.subsys_radio",
+            "format": "aidl",
+            "versions": [
+              "1-9"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.subsys_radio",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.touch",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.urcc",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.oplus.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.display",
+            "format": "aidl",
+            "versions": [
+              "1-2"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.display",
+            "format": "hidl",
+            "versions": [
+              "1.0-2"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.feature",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          },
+          {
+            "name": "vendor.pixelworks.hardware.feature",
+            "format": "hidl",
+            "versions": [
+              "1.0-1"
+            ]
+          },
+          {
+            "name": "vendor.zeku.hardware.explorer",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          }
+        ],
+        "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml": [
+          {
+            "name": "android.hardware.biometrics.fingerprint",
+            "format": "hidl",
+            "versions": [
+              "2.3"
+            ]
+          }
+        ],
+        "hidl/dolby/codec2/vendor.dolby.media.c2@1.0-service.xml": [
+          {
+            "name": "android.hardware.media.c2",
+            "format": "hidl",
+            "versions": [
+              "1.0"
+            ]
+          }
+        ],
+        "overlay/FrameworksResCommon/AndroidManifest.xml": [],
+        "overlay/SettingsProviderResCommon/AndroidManifest.xml": [],
+        "overlay/OPlusWifiResCommon/AndroidManifest.xml": [],
+        "overlay/WifiResCommon/AndroidManifest.xml": [],
+        "aidl/als/vendor.lineage.oplus_als.service.xml": [
+          {
+            "name": "vendor.lineage.oplus_als",
+            "format": "aidl",
+            "versions": []
+          }
+        ],
+        "aidl/ir/android.hardware.ir-service.xml": [
+          {
+            "name": "android.hardware.ir",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/commondcs/vendor.oplus.hardware.commondcs-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.commondcs",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/sensors/android.hardware.sensors.oplus-multihal.xml": [
+          {
+            "name": "android.hardware.sensors",
+            "format": "aidl",
+            "versions": [
+              "3"
+            ]
+          }
+        ],
+        "aidl/performance/vendor.oplus.hardware.performance-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.performance",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/vibrator/qti/vendor.qti.hardware.vibrator.service.oplus.xml": [
+          {
+            "name": "android.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ],
+        "aidl/vibrator/richtap/android.hardware.vibrator.service.oplus-richtap.xml": [
+          {
+            "name": "android.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          }
+        ],
+        "aidl/osense-client/vendor.oplus.hardware.osense.client-service.xml": [
+          {
+            "name": "vendor.oplus.hardware.osense.client",
+            "format": "aidl",
+            "versions": [
+              "1"
+            ]
+          }
+        ]
+      },
+      "components": {
+        "touch": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "fingerprint": {
+          "present": true,
+          "modules": {
+            "libudfps_extension.oplus": "fingerprint/Android.bp",
+            "libshims_aidl_fingerprint.oplus_defaults": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v2.oplus": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v3.oplus": "fingerprint/shims/Android.bp",
+            "libshims_aidl_fingerprint_v4.oplus": "fingerprint/shims/Android.bp",
+            "libshims_fingerprint.oplus": "fingerprint/shims/Android.bp",
+            "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+            "qwerty.kl": "hidl/fingerprint/Android.bp"
+          },
+          "vintf_files": [
+            "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml"
+          ]
+        },
+        "livedisplay": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "vibrator": {
+          "present": true,
+          "modules": {
+            "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/qti/Android.bp",
+            "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/qti/Android.bp",
+            "liboplusvibratoreffect": "aidl/vibrator/qti/effect/Android.bp",
+            "android.hardware.vibrator.service.oplus-richtap": "aidl/vibrator/richtap/Android.bp",
+            "libaacvibrator": "aidl/vibrator/richtap/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/vibrator/qti/vendor.qti.hardware.vibrator.service.oplus.xml",
+            "aidl/vibrator/richtap/android.hardware.vibrator.service.oplus-richtap.xml"
+          ]
+        },
+        "sensors / fusionlight": {
+          "present": true,
+          "modules": {
+            "sensors.oplus": "sensors/udfps/Android.bp",
+            "sensors.ssc_custom_flag": "sensors/custom_flag/Android.bp",
+            "sensors.fusionlight": "sensors/fusionlight/Android.bp",
+            "android.hardware.sensors-service.oplus-multihal": "aidl/sensors/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/sensors/android.hardware.sensors.oplus-multihal.xml"
+          ]
+        },
+        "ltpo": {
+          "present": true,
+          "modules": {
+            "OplusLtpo": "ltpo/Android.bp"
+          },
+          "vintf_files": [
+            "ltpo/AndroidManifest.xml"
+          ]
+        },
+        "nrmodeswitcher": {
+          "present": true,
+          "modules": {
+            "nrmodeswitcher": "nrmodeswitcher/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "hbp-daemon": {
+          "present": true,
+          "modules": {
+            "hbp-setup": "hbp-daemon/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "oplus-fwk": {
+          "present": true,
+          "modules": {
+            "oplus-fwk": "oplus-fwk/Android.bp",
+            "oplus-fwk-vibrator-lib": "oplus-fwk/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "rfs": {
+          "present": true,
+          "modules": {
+            "rfs_mdm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+            "rfs_msm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "usb": {
+          "present": true,
+          "modules": {
+            "oplus_usb_compositions.conf": "usb/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "wvmkiller": {
+          "present": true,
+          "modules": {
+            "wvmkiller": "wvmkiller/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "extract-utils-ext": {
+          "present": true,
+          "modules": {},
+          "vintf_files": []
+        },
+        "audio amplifier": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "overlays": {
+          "present": true,
+          "modules": {
+            "FrameworksResCommon": "overlay/FrameworksResCommon/Android.bp",
+            "SettingsProviderResCommon": "overlay/SettingsProviderResCommon/Android.bp",
+            "OPlusWifiResCommon": "overlay/OPlusWifiResCommon/Android.bp",
+            "WifiResCommon": "overlay/WifiResCommon/Android.bp"
+          },
+          "vintf_files": [
+            "overlay/FrameworksResCommon/AndroidManifest.xml",
+            "overlay/SettingsProviderResCommon/AndroidManifest.xml",
+            "overlay/OPlusWifiResCommon/AndroidManifest.xml",
+            "overlay/WifiResCommon/AndroidManifest.xml"
+          ]
+        }
+      },
+      "modules": {
+        "hidl_oplus_cameraextension_interface": "Android.bp",
+        "hidl_pixelworks_feature_interface": "Android.bp",
+        "hidl_zeku_explorer_interface": "Android.bp",
+        "vendor.oplus": "interfaces/Android.bp",
+        "vendor.oplus.hardware.appradioaidl": "interfaces/Android.bp",
+        "vendor.lineage.oplus_als": "interfaces/Android.bp",
+        "vendor.oplus.hardware.biometrics.fingerprintpay": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera.aon": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera_rfi": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cameraextension": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cammidasservice": "interfaces/Android.bp",
+        "vendor.oplus.hardware.charger": "interfaces/Android.bp",
+        "vendor.oplus.hardware.commondcs": "interfaces/Android.bp",
+        "vendor.oplus.hardware.communicationcenter": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cwb": "interfaces/Android.bp",
+        "vendor.oplus.hardware.displaycolorfeature": "interfaces/Android.bp",
+        "vendor.oplus.hardware.ims": "interfaces/Android.bp",
+        "vendor.oplus.hardware.display.MixLut3D": "interfaces/Android.bp",
+        "vendor.oplus.hardware.displaypanelfeature": "interfaces/Android.bp",
+        "vendor.oplus.hardware.esim": "interfaces/Android.bp",
+        "vendor.oplus.hardware.olc2": "interfaces/Android.bp",
+        "vendor.oplus.hardware.oplusSensor": "interfaces/Android.bp",
+        "vendor.oplus.hardware.osense.client": "interfaces/Android.bp",
+        "vendor.oplus.hardware.performance": "interfaces/Android.bp",
+        "vendor.oplus.hardware.pogo_keyboard": "interfaces/Android.bp",
+        "vendor.oplus.hardware.radio": "interfaces/Android.bp",
+        "vendor.oplus.hardware.secure_element": "interfaces/Android.bp",
+        "vendor.oplus.hardware.sendextcamcmd": "interfaces/Android.bp",
+        "vendor.oplus.hardware.stability.oplus_project": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys_imsrtp": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys": "interfaces/Android.bp",
+        "vendor.oplus.hardware.subsys_radio": "interfaces/Android.bp",
+        "vendor.oplus.hardware.touch": "interfaces/Android.bp",
+        "vendor.oplus.hardware.urcc": "interfaces/Android.bp",
+        "vendor.oplus.hardware.ndk_platform_shim_defaults": "interfaces/Android.bp",
+        "vendor.oplus.hardware.camera.aon-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cameraextension-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cammidasservice-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.commondcs-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.olc2-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.osense.client-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.performance-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.radio-V2-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform": "interfaces/Android.bp",
+        "vendor.oplus.hardware.cwb@1.0": "interfaces/oplus/hardware/cwb/1.0/Android.bp",
+        "vendor.oplus.hardware.displaypanelfeature@1.0": "interfaces/oplus/hardware/displaypanelfeature/1.0/Android.bp",
+        "vendor.oplus.hardware.biometrics.fingerprint@2.1": "interfaces/oplus/hardware/biometrics/fingerprint/2.1/Android.bp",
+        "oplus_usb_compositions.conf": "usb/Android.bp",
+        "IFAAService": "packages/IFAAService/Android.bp",
+        "OplusPermissions": "packages/OplusPermissions/Android.bp",
+        "KeyHandler": "packages/KeyHandler/Android.bp",
+        "tri-state-key-calibrate": "packages/KeyHandler/Android.bp",
+        "OplusPen": "packages/Pen/Android.bp",
+        "default-permissions_org.lineageos.pen": "packages/Pen/Android.bp",
+        "OplusLtpo": "ltpo/Android.bp",
+        "kernel_headers.oplus": "kernel-headers/Android.bp",
+        "hbp-setup": "hbp-daemon/Android.bp",
+        "libudfps_extension.oplus": "fingerprint/Android.bp",
+        "libshims_aidl_fingerprint.oplus_defaults": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v2.oplus": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v3.oplus": "fingerprint/shims/Android.bp",
+        "libshims_aidl_fingerprint_v4.oplus": "fingerprint/shims/Android.bp",
+        "libshims_fingerprint.oplus": "fingerprint/shims/Android.bp",
+        "nrmodeswitcher": "nrmodeswitcher/Android.bp",
+        "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+        "qwerty.kl": "hidl/fingerprint/Android.bp",
+        "dolbycodec2": "hidl/dolby/codec2/Android.bp",
+        "rfs_mdm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+        "rfs_msm_mpss_readonly_dycnvbk_symlink": "rfs/Android.bp",
+        "oplus-fwk": "oplus-fwk/Android.bp",
+        "oplus-fwk-vibrator-lib": "oplus-fwk/Android.bp",
+        "sensors.oplus": "sensors/udfps/Android.bp",
+        "sensors.ssc_custom_flag": "sensors/custom_flag/Android.bp",
+        "sensors.fusionlight": "sensors/fusionlight/Android.bp",
+        "wvmkiller": "wvmkiller/Android.bp",
+        "liboplus-uah-client": "uah-client/Android.bp",
+        "FrameworksResCommon": "overlay/FrameworksResCommon/Android.bp",
+        "SettingsProviderResCommon": "overlay/SettingsProviderResCommon/Android.bp",
+        "OPlusWifiResCommon": "overlay/OPlusWifiResCommon/Android.bp",
+        "WifiResCommon": "overlay/WifiResCommon/Android.bp",
+        "vendor.lineage.oplus_als.service": "aidl/als/Android.bp",
+        "android.hardware.ir-service.oplus": "aidl/ir/Android.bp",
+        "vendor.oplus.hardware.commondcs-service": "aidl/commondcs/Android.bp",
+        "android.hardware.sensors-service.oplus-multihal": "aidl/sensors/Android.bp",
+        "vendor.oplus.hardware.performance-service": "aidl/performance/Android.bp",
+        "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/qti/Android.bp",
+        "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/qti/Android.bp",
+        "liboplusvibratoreffect": "aidl/vibrator/qti/effect/Android.bp",
+        "android.hardware.vibrator.service.oplus-richtap": "aidl/vibrator/richtap/Android.bp",
+        "libaacvibrator": "aidl/vibrator/richtap/Android.bp",
+        "vendor.oplus.hardware.osense.client-service": "aidl/osense-client/Android.bp"
+      }
+    },
+    "AOSPA uvite": {
+      "path": "hardware/oplus-a14-ref",
+      "remote": "https://github.com/AOSPA/android_hardware_oplus",
+      "branch": "a17-port",
+      "commit": "3449e9a2ab5a7947b30ea0b7d9634c5bbfb4aec6",
+      "shallow": false,
+      "namespaces": {
+        ".": []
+      },
+      "policy_hooks": [
+        "sepolicy/qti/SEPolicy.mk"
+      ],
+      "vintf": {
+        "DolbyManager/AndroidManifest.xml": [],
+        "Euicc/AndroidManifest.xml": [],
+        "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml": [
+          {
+            "name": "android.hardware.biometrics.fingerprint",
+            "format": "hidl",
+            "versions": [
+              "2.3"
+            ]
+          }
+        ],
+        "KeyHandler/AndroidManifest.xml": [],
+        "aidl/vibrator/vendor.qti.hardware.vibrator.service.oplus.xml": [
+          {
+            "name": "android.hardware.vibrator",
+            "format": "aidl",
+            "versions": [
+              "2"
+            ]
+          }
+        ]
+      },
+      "components": {
+        "touch": {
+          "present": true,
+          "modules": {
+            "KeyHandler": "KeyHandler/Android.bp",
+            "tri-state-key-calibrate": "KeyHandler/Android.bp"
+          },
+          "vintf_files": [
+            "KeyHandler/AndroidManifest.xml"
+          ]
+        },
+        "fingerprint": {
+          "present": true,
+          "modules": {
+            "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+            "libshims_fingerprint.oplus": "hidl/fingerprint/Android.bp",
+            "libudfps_extension.oplus": "hidl/fingerprint/Android.bp"
+          },
+          "vintf_files": [
+            "hidl/fingerprint/android.hardware.biometrics.fingerprint@2.3-service.oplus.xml"
+          ]
+        },
+        "livedisplay": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "vibrator": {
+          "present": true,
+          "modules": {
+            "oplus_aospa_vibrator_hal_cc_defaults": "aidl/vibrator/Android.bp",
+            "vibrator_effect_stream_defaults": "aidl/vibrator/Android.bp",
+            "oplus_aospa_vibrator_effect_defaults": "aidl/vibrator/Android.bp",
+            "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/Android.bp",
+            "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/Android.bp",
+            "liboplusvibratoreffect": "aidl/vibrator/effect/Android.bp"
+          },
+          "vintf_files": [
+            "aidl/vibrator/vendor.qti.hardware.vibrator.service.oplus.xml"
+          ]
+        },
+        "sensors / fusionlight": {
+          "present": true,
+          "modules": {
+            "sensors.oplus": "sensors/Android.bp"
+          },
+          "vintf_files": []
+        },
+        "ltpo": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "nrmodeswitcher": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "hbp-daemon": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "oplus-fwk": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "rfs": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "usb": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "wvmkiller": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "extract-utils-ext": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        },
+        "audio amplifier": {
+          "present": true,
+          "modules": {
+            "audio_amplifier.$(TARGET_BOARD_PLATFORM)": "audio_amplifier/Android.mk"
+          },
+          "vintf_files": []
+        },
+        "overlays": {
+          "present": false,
+          "modules": {},
+          "vintf_files": []
+        }
+      },
+      "modules": {
+        "hidl_oplus_cameraextension_interface": "Android.bp",
+        "vendor.oplus": "interfaces/Android.bp",
+        "vendor.oplus.hardware.biometrics.fingerprint@2.1": "interfaces/oplus/hardware/biometrics/fingerprint/2.1/Android.bp",
+        "DolbyManager": "DolbyManager/Android.bp",
+        "kernel_headers.oplus": "kernel-headers/Android.bp",
+        "OplusEuicc": "Euicc/Android.bp",
+        "org.lineageos.euicc.xml": "Euicc/Android.bp",
+        "hidden-api-whitelist-org.lineageos.euicc.xml": "Euicc/Android.bp",
+        "android.hardware.biometrics.fingerprint@2.3-service.oplus": "hidl/fingerprint/Android.bp",
+        "libshims_fingerprint.oplus": "hidl/fingerprint/Android.bp",
+        "libudfps_extension.oplus": "hidl/fingerprint/Android.bp",
+        "libshims_ocsclk": "hidl/radio/Android.bp",
+        "libshims_ozoc2store": "hidl/audio/Android.bp",
+        "sensors.oplus": "sensors/Android.bp",
+        "audio_amplifier.$(TARGET_BOARD_PLATFORM)": "audio_amplifier/Android.mk",
+        "KeyHandler": "KeyHandler/Android.bp",
+        "tri-state-key-calibrate": "KeyHandler/Android.bp",
+        "oplus_aospa_vibrator_hal_cc_defaults": "aidl/vibrator/Android.bp",
+        "vibrator_effect_stream_defaults": "aidl/vibrator/Android.bp",
+        "oplus_aospa_vibrator_effect_defaults": "aidl/vibrator/Android.bp",
+        "vendor.qti.hardware.vibrator.impl.oplus": "aidl/vibrator/Android.bp",
+        "vendor.qti.hardware.vibrator.service.oplus": "aidl/vibrator/Android.bp",
+        "liboplusvibratoreffect": "aidl/vibrator/effect/Android.bp"
+      }
+    }
+  },
+  "porsche_options": [
+    [
+      "OPLUS_LINEAGE_LIVEDISPLAY_HAL",
+      "ENABLE_AB/ENABLE_AF/ENABLE_DM",
+      "unset (false)",
+      "No A17 Porsche override; not enabled without verified device controls. TODO(porsche)."
+    ],
+    [
+      "OPLUS_LINEAGE_LIVEDISPLAY_HAL",
+      "ENABLE_PA/ENABLE_SE",
+      "true / true",
+      "Preserve the primary A17 service defaults and selected VINTF fragments."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "ENABLE_GM",
+      "unset (false)",
+      "No verified Porsche glove-mode enable in the A17 reference. TODO(porsche)."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "ENABLE_HTPR/ENABLE_TG",
+      "true / true",
+      "Primary HAL defaults; Porsche DTS declares game_switch_support and black_gesture_indep_support."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "GESTURE_ENABLE_INDEP_NODES",
+      "/proc/touchpanel/double_tap_enable_indep",
+      "Exact primary HAL default and kernel proc node."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "HTPR_ENABLE_NODE/HTPR_ENABLE_VALUE",
+      "default GAME_SWITCH_ENABLE_NODE / 1",
+      "These select the unused stock AIDL backend; direct mode uses game_switch_enable with 1/0."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "INCLUDE_DIR",
+      "device/realme/porsche/touch/include",
+      "Unchanged primary Porsche TouchscreenGestureConfig.h; no added gesture IDs."
+    ],
+    [
+      "OPLUS_LINEAGE_TOUCH_HAL",
+      "USE_OPLUSTOUCH",
+      "false",
+      "Keep the primary direct proc-node backend, not an unverified stock AIDL server."
+    ],
+    [
+      "OPLUS_LINEAGE_VIBRATOR_HAL",
+      "USE_EFFECT_STREAM",
+      "true",
+      "Explicit setting in the booting A17 Porsche device product."
+    ],
+    [
+      "OPLUS_LINEAGE_VIBRATOR_HAL",
+      "INCLUDE_DIR",
+      "unset",
+      "Primary A17 uses module defaults; the uvite effect header has not been verified as an override for this implementation. TODO(porsche)."
+    ],
+    [
+      "OPLUS_SENSORS_FUSIONLIGHT",
+      "BACKEND_SUBHAL_LIB_NAME",
+      "unset; wrapper not selected",
+      "Primary hals.conf loads sensors.ssc.so and sensors.oplus.so. No verified FusionLight wrapper/backend. TODO(porsche)."
+    ]
+  ],
+  "conflicts": [
+    "Penguin README advertises touch/livedisplay options whose implementations were removed in f90ff97.",
+    "Penguin lacks audio_amplifier.qcom, required by primary SM8350 common audio selection.",
+    "Penguin overlay namespace is overlay/, while the primary tree uses overlay/generic and overlay/qssi.",
+    "Penguin splits policy into common and qti hooks; replacing the tree would require translating existing verified CLO policy adaptations.",
+    "Unselected reference copies would duplicate module names without source exclusions; each reference is excluded."
+  ],
+  "hardware_changes_from_penguin": [],
+  "validation": "PASS: ARM/ARM64 display, selected Oplus HALs, UFS recovery, SELinux, integrated images and module dependency closure, VINTF with kernel requirements, and full signed OTA with metadata/firmware audit. Hardware boot remains untested."
+}

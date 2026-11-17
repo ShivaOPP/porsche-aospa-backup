@@ -1,0 +1,180 @@
+{
+  "pass": true,
+  "ota": "out/target/product/porsche/aospa_porsche-ota.zip",
+  "bytes": 2821875753,
+  "sha256": "410a3073af2d65f8f20f5bd79becee7ee2448cabba97ea1f27a0bd422543baf0",
+  "signature": "PASS, native verifier with actual build test certificate",
+  "metadata": {
+    "ota-property-files": "payload_metadata.bin:4543:175810,payload.bin:4543:2821867716,payload_properties.txt:2821872317:156,apex_info.pb:2173:1448,care_map.pb:3668:828,metadata:69:694,metadata.pb:831:1294                        ",
+    "ota-required-cache": "0",
+    "ota-streaming-property-files": "payload.bin:4543:2821867716,payload_properties.txt:2821872317:156,apex_info.pb:2173:1448,care_map.pb:3668:828,metadata:69:694,metadata.pb:831:1294                          ",
+    "ota-type": "AB",
+    "post-build": "realme/RMX3312/RE58B2L1:17/CQ2A.260820.002-CP2A.260605.016/1794902114:userdebug/test-keys",
+    "post-build-incremental": "1794902114",
+    "post-sdk-level": "37",
+    "post-security-patch-level": "2026-08-05",
+    "post-timestamp": "1794902114",
+    "pre-device": "RE58B2L1"
+  },
+  "protobuf_device_assertions": "RE58B2L1",
+  "payload_major_version": 2,
+  "partitions": {
+    "abl": {
+      "bytes": 217088,
+      "sha256": "9d318d4a6b513d384685a726ec0e2f788ccce7b775c5cf105cf6bc8ce0798c85"
+    },
+    "aop": {
+      "bytes": 245760,
+      "sha256": "ce689424c3e3dea3a89e09d330a4b64d2d14c366f141bac29941171ba658e489"
+    },
+    "bluetooth": {
+      "bytes": 1912832,
+      "sha256": "a4eec8b6c51ffbc2f9db55275ccff8b5efaed8929edfdb2a3ee904e61ae963bf"
+    },
+    "boot": {
+      "bytes": 201326592,
+      "sha256": "6ae831a2a5c1237374cd058d50178c22114bf341bbbf41d8d89567d54bfe318d"
+    },
+    "cpucp": {
+      "bytes": 110592,
+      "sha256": "b41af5730e18bf387b86a9be70e933eee1be8d61ffeee1b2e6b76aff28e0d21e"
+    },
+    "devcfg": {
+      "bytes": 53248,
+      "sha256": "25637b42cb05348b35670a53c6242f2579c4992be750a91878b9d3dfaed16c0c"
+    },
+    "dsp": {
+      "bytes": 67108864,
+      "sha256": "df1d77cf2bbc34b0bf0df1958724e588b154e096afdd9a84963a6cf9bc9c6de5"
+    },
+    "dtbo": {
+      "bytes": 25165824,
+      "sha256": "5781cfa98fd6798f9fe70ee4cb15fc1707b762099bdaf05d39022081857256ba"
+    },
+    "engineering_cdt": {
+      "bytes": 1048576,
+      "sha256": "72e22fa2321b8cba9101b2ebec259c311f40fe3b85776cb13e1ec64648266641"
+    },
+    "featenabler": {
+      "bytes": 90112,
+      "sha256": "aa0c4f5704cfb842f0600451eb99ce8a777808b4d60fa06983c8b9d766af7de7"
+    },
+    "hyp": {
+      "bytes": 3739648,
+      "sha256": "d06211791ed180b15bfce6d74fc63f279cb7100990f7d31fc7faf5eb88443d5d"
+    },
+    "imagefv": {
+      "bytes": 94208,
+      "sha256": "705f2bf5446d6b8dcc11742241c4b949d269ac7ce4e300979fbaa9f9426115db"
+    },
+    "keymaster": {
+      "bytes": 286720,
+      "sha256": "90920005fb3992fc74302c79358ff6b79bb6ac09141165f8640a4b181dcdf0cc"
+    },
+    "modem": {
+      "bytes": 214642688,
+      "sha256": "3ecbcaf2d4bf3bfa9f2f1575ff79b4a1ff5dd40f293abafb03499dc6a51b42b7"
+    },
+    "multiimgoem": {
+      "bytes": 16384,
+      "sha256": "fa1372a2e95515c2365685358193d9b08766a966b63b7b9129aec16575de4f80"
+    },
+    "odm": {
+      "bytes": 953094144,
+      "sha256": "3776df93664b77279edac75a7ee078da182ac45a89ba91c9992f3c70ec5c5bf3"
+    },
+    "oplus_sec": {
+      "bytes": 294912,
+      "sha256": "ac0f295581455db44cac343f3e437555dfddf93e6de0b300bc1a918e58a5db03"
+    },
+    "oplusstanvbk": {
+      "bytes": 397312,
+      "sha256": "737cf664d690f59735e722532c469c9949f7fe6636d92f8896454102dd0815ef"
+    },
+    "product": {
+      "bytes": 2588266496,
+      "sha256": "14a8931842da5aca16c2baadc8b34d51e4b13b7f165556774f827b2d358e015e"
+    },
+    "qupfw": {
+      "bytes": 57344,
+      "sha256": "e4c20973e8a131c8ba7eb505520df472d143a0a5d578cc245caf0e63dd864768"
+    },
+    "qweslicstore": {
+      "bytes": 262144,
+      "sha256": "879c097b7daf3936d6c2371e56ca0695e9e23c55a307db1d9b936d3d79f4975e"
+    },
+    "shrm": {
+      "bytes": 49152,
+      "sha256": "23aa2003ce40b8b66d16095db22b74da48e5207fc9b57f1a5a5a36265f8796ab"
+    },
+    "splash": {
+      "bytes": 540672,
+      "sha256": "83fdf4b8297368c4babf9481a0e01a1bf5682039452d3e1fc8ebc4d5f1c28a51"
+    },
+    "system": {
+      "bytes": 1073651712,
+      "sha256": "3fa43e1eda259891c775ccc59a54cf3de2f511c2741a597ca4ff0c75822317d7"
+    },
+    "system_ext": {
+      "bytes": 550756352,
+      "sha256": "e7b0d1647f3a9e98e9bda0a9c8099610c553de74d92885a8defd47d9e7cbde57"
+    },
+    "tz": {
+      "bytes": 3932160,
+      "sha256": "4f7f5fd48ced92efbe224357adf0865b14718a0084a2077fda5974699b652f57"
+    },
+    "uefisecapp": {
+      "bytes": 126976,
+      "sha256": "33fe53be647fcf83a2c86ad4b9606c62ab7c981fc72b2571b3459c0adf8b4641"
+    },
+    "vbmeta": {
+      "bytes": 8192,
+      "sha256": "c77da8a06a7225d3b278c646f1eee0faf98588cde2b4bec4ff45b12211e00de5"
+    },
+    "vbmeta_system": {
+      "bytes": 4096,
+      "sha256": "f80be850b9774959b5cb2dcc6e4604a2c123d7826ddfbcc466e854f0f228eebe"
+    },
+    "vbmeta_vendor": {
+      "bytes": 4096,
+      "sha256": "f5f5899ac181e662e7b1ea5e0c679d8d91c924ce7a89db617d85bfdcbd5dc47c"
+    },
+    "vendor": {
+      "bytes": 405528576,
+      "sha256": "1da0e995e923c958ec011d3de1dc36be4831c293a006b83b9e0abd495c72c7ed"
+    },
+    "vendor_boot": {
+      "bytes": 201326592,
+      "sha256": "b8714a1026351bba219647e1d28464d04abe5fb94390208e3e86f5ecb40bb30e"
+    },
+    "vendor_dlkm": {
+      "bytes": 13754368,
+      "sha256": "f775ea600c89264560faf498dfd5e652dac17f3ec3ded16fcffbb5ab253c8745"
+    },
+    "xbl": {
+      "bytes": 4313088,
+      "sha256": "b2aa7f8187f5e66bb85d63e3c683d668e7dc377ad097a4e0be04dfc692791e40"
+    },
+    "xbl_config": {
+      "bytes": 221184,
+      "sha256": "d9f76915f424cdc903d0893f83c50d576348af86ce8f0e26c85b12e73906d113"
+    }
+  },
+  "payload_matches_ab_partition_list": true,
+  "userdata_in_payload": false,
+  "primary_radio_images_verified": 23,
+  "radio_payload_sha256_matches_primary": true,
+  "dynamic_group": {
+    "name": "oneplus_dynamic_partitions",
+    "bytes": 11186208768,
+    "partitions": [
+      "odm",
+      "product",
+      "system",
+      "system_ext",
+      "vendor",
+      "vendor_dlkm"
+    ]
+  },
+  "scope": "Signed OTA integrity and partition/firmware consistency; no hardware boot test."
+}

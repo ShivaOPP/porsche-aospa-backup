@@ -1,0 +1,214 @@
+[
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC",
+    "note": "Visibility change succeeded before a Git backend HTTP 403. API disabled=false and push/admin permissions remain true; checking transient availability."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC"
+  },
+  {
+    "repository": "ShivaOPP/android_frameworks_base",
+    "action": "visibility",
+    "from": "PRIVATE",
+    "to": "PUBLIC"
+  },
+  {
+    "repository": "ShivaOPP/android_device_realme_porsche",
+    "action": "default_branch",
+    "from": "uvite",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_device_oneplus_sm8350-common",
+    "action": "default_branch",
+    "from": "seventeen",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "action": "default_branch",
+    "from": "aospa-android17",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_realme_porsche",
+    "action": "default_branch",
+    "from": "porsche-aospa",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_oneplus_sm8350-common",
+    "action": "default_branch",
+    "from": "porsche-aospa",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_oplus_camera",
+    "action": "default_branch",
+    "from": "porsche-aospa",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_oplus",
+    "action": "default_branch",
+    "from": "seventeen",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_dolby",
+    "action": "default_branch",
+    "from": "porsche-aospa",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_pixelworks_interfaces",
+    "action": "default_branch",
+    "from": "lineage-24.0",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_kernel_oneplus_sm8350",
+    "action": "default_branch",
+    "from": "seventeen",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_lineage_interfaces",
+    "action": "default_branch",
+    "from": "lineage-24.0",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_device_lineage_sepolicy",
+    "action": "default_branch",
+    "from": "lineage-24.0",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_audio",
+    "action": "default_branch",
+    "from": "uvite-8550",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_display",
+    "action": "default_branch",
+    "from": "uvite-8550",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_gps",
+    "action": "default_branch",
+    "from": "uvite-8550",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_media",
+    "action": "default_branch",
+    "from": "uvite-8550",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "action": "default_branch",
+    "from": "aospa-android17",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom-caf_common",
+    "action": "default_branch",
+    "from": "lineage-24.0",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_thermal",
+    "action": "default_branch",
+    "from": "calcite",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_packages_apps_EuiccPolicy",
+    "action": "default_branch",
+    "from": "lineage-24.0",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_device_qcom_common",
+    "action": "default_branch",
+    "from": "calcite",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/sepolicy",
+    "action": "default_branch",
+    "from": "porsche-aospa",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "action": "default_branch",
+    "from": "aospa-android17",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "action": "default_branch",
+    "from": "aospa-android17",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "action": "default_branch",
+    "from": "aospa-android17",
+    "to": "porsche-aospa-shiva",
+    "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  }
+]

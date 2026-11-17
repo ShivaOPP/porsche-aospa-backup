@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "name": "ShivaOPP",
+    "email": "iamnotpcyt@gmail.com",
+    "scope": "Per-repository local Git config; historical commits are not rewritten."
+  },
+  "approved_findings": [
+    "Already-public development/test signing keys",
+    "Documented local paths",
+    "Byte-identical public upstream historical API-key examples and source-author contact information"
+  ],
+  "approval": "User confirmed yes, then explicitly instructed: oh yes push everything its fine.",
+  "existing_branches_preserved": true,
+  "upstream_blobs_verified": 290,
+  "generated_header_or_hash_false_positives": 49,
+  "framework_base": "No local code changes; exact upstream revision preserved.",
+  "kernel_scan": "Full public upstream history scans continue independently; only one local header-export commit changes the baseline.",
+  "credentials": "Operational GitHub/RBE credentials are excluded from backup content."
+}

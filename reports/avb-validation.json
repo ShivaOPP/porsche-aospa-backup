@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "scope": "Actual target-files images, with expected chain public keys and rollback-index locations; no device boot test.",
+  "images_root": "out/target/product/porsche/obj/PACKAGING/target_files_intermediates/aospa_porsche-target_files/IMAGES",
+  "chain_rollback_locations": {
+    "boot": 4,
+    "dtbo": 3,
+    "vbmeta_system": 2,
+    "vbmeta_vendor": 5,
+    "vendor_boot": 1
+  },
+  "chain_key_source": "external/avb/test/data/testkey_rsa4096.pem",
+  "chain_descriptors_match_primary_A17": true,
+  "filesystem_hashtrees_verified": [
+    "system",
+    "system_ext",
+    "product",
+    "vendor",
+    "odm",
+    "vendor_dlkm"
+  ],
+  "boot_hashes_verified": [
+    "boot",
+    "vendor_boot",
+    "dtbo"
+  ],
+  "log": ".repo/porsche-shiva-avb-check.log",
+  "log_sha256": "9aa050da18567a3af674c0dd1abae167cbc488fe4232069519455db5a2664e80"
+}

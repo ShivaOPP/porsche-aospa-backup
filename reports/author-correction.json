@@ -1,0 +1,879 @@
+[
+  {
+    "path": "device/realme/porsche",
+    "original_branch": "a17-port",
+    "original_head": "ea2578dff8337074ed0c00ef012347163647b72b",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "8da24a7ff897001ec33ba8493b29317053b05863",
+    "port_commits": [
+      {
+        "old": "a591f8ad75460040a30437f9f8cc92c536021789",
+        "new": "ac50a3c9891820d20adcb079a53bbca28f0e1846",
+        "subject": "porsche: Record verified calcite and Android 17 source baselines",
+        "tree_unchanged": true
+      },
+      {
+        "old": "17fc894b21b951fb5b77f9faf983c88d0cff4e74",
+        "new": "ebd2298f72233e35d12d1115bec98f967e31a337",
+        "subject": "porsche: Port device configuration onto the booting Android 17 base",
+        "tree_unchanged": true
+      },
+      {
+        "old": "99211a151972f1530ce1a5c560e2ebfb044e5960",
+        "new": "c3d4a9350c1416e8b8a193b9c991ce6242645972",
+        "subject": "porsche: Adopt Python 3 extraction and Android 17 dependency layout",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ff710f559fafb57e25392490dc0e2e3389475f03",
+        "new": "1efc6d7d653341c5798e59c71190a8085bf259ca",
+        "subject": "porsche: Record reversible removal of unused reference vendor payloads",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b9253f48f2a63e44fc952479bb45ac4cbc274f06",
+        "new": "50b157011361bb1f8bf79e93bda5b044da2c80fe",
+        "subject": "porsche: Validate all selected blob files and install declarations",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b93f680d76afec0d20398ada9f147f7fc741aeef",
+        "new": "011976c6be736d4eb3f8543f9bd5939d714f264f",
+        "subject": "porsche: prefer verified A17 device data and document the port",
+        "tree_unchanged": true
+      },
+      {
+        "old": "3280b90d25f19ccd3948221917cbe414eb71319a",
+        "new": "d4bada59d5d44aa0315ac683f4b02719410e8212",
+        "subject": "porsche: translate calcite overlays and use one verified fstab provider",
+        "tree_unchanged": true
+      },
+      {
+        "old": "f2b4976f8aa51919f671e8482847944c7b1d5c48",
+        "new": "483a86da244634066d0fdb6236ec9f7496a44d9e",
+        "subject": "porsche: include modern Oplus eSIM policy dependency",
+        "tree_unchanged": true
+      },
+      {
+        "old": "e75da78b63a029d1d551158a24a6a6854f3adc48",
+        "new": "e80e877ae96c71f4088b204b1ddfbfb179b6684f",
+        "subject": "porsche: preserve secure NFC using calcite device capability resource",
+        "tree_unchanged": true
+      },
+      {
+        "old": "23f5cb7516d8c1a5bd2e4bae91b9eeab009fd18d",
+        "new": "57d6a60a86587509e1dd0367e4a1a3ad701467b8",
+        "subject": "porsche: wire verified kernel modules early and record image validation",
+        "tree_unchanged": true
+      },
+      {
+        "old": "e6087eb237384d4030c9fab9392d7572a5d81052",
+        "new": "fddc22bb0b6325c797dd0dd7c5adf8d377e06cd0",
+        "subject": "porsche: select one FM interface provider and record ownership",
+        "tree_unchanged": true
+      },
+      {
+        "old": "6e10f6f556b5baf0843a3df292ef69ae64860709",
+        "new": "d101b3f854726b6eed8b21595e8be222c9843d77",
+        "subject": "porsche: identify legacy QTI mountpoint ownership",
+        "tree_unchanged": true
+      },
+      {
+        "old": "78cb221d66ce4fcec5549f6955f5d9270c9d7420",
+        "new": "3de0ac8ef16b7f286321627089dad1769312d237",
+        "subject": "porsche: retain the A17 bootloader board acceptance list",
+        "tree_unchanged": true
+      },
+      {
+        "old": "f387dc85822165c2de5ce8f18add6a5cc4a73517",
+        "new": "24d8e10c942dd1097910f9400ac82c137f3f26b3",
+        "subject": "porsche: record successful dry build and verified runtime DT discovery",
+        "tree_unchanged": true
+      },
+      {
+        "old": "e71a04b2bc48102684141c3302a9061a0efa7dcb",
+        "new": "9b9bb28146c769bd120c5d97038f31a07222d9b0",
+        "subject": "porsche: use the new Dolby HAL attribute declarations",
+        "tree_unchanged": true
+      },
+      {
+        "old": "3cad929907a3b75f938e429f4c999e830696fc1e",
+        "new": "f9095706f6c7afc70c1e965597a3a5aab8cc5675",
+        "subject": "porsche: share identical wakeup labels with calcite lahaina policy",
+        "tree_unchanged": true
+      },
+      {
+        "old": "2775021973de7075ded0eadc5f5a5a5bf26ae316",
+        "new": "80e6368484f06c7b159ffb3cce4d73be166458d6",
+        "subject": "porsche: translate reference gesture hooks to the native AOSPA handler",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b6fec1c796bb5f29ab2b60f3cbcfe7e16665bffc",
+        "new": "3f8654292425d98b9d347b143f5a8e6fbb7bacea",
+        "subject": "porsche: label Widevine with the existing calcite executable type",
+        "tree_unchanged": true
+      },
+      {
+        "old": "d27af656bc7939240683e64efadd3d3d45891270",
+        "new": "146703c27f53d0cff21346323e4db56127d1d022",
+        "subject": "porsche: record rollback and prepare isolated compute policy",
+        "tree_unchanged": true
+      },
+      {
+        "old": "6c44f69d710f7c7bae49f5dbaf4c71fe75eb68d5",
+        "new": "b2b6bb6fc4f0a671ece1666cb972fe6427739403",
+        "subject": "porsche: record passing SELinux validation using RBE",
+        "tree_unchanged": true
+      },
+      {
+        "old": "d20a30fadc0be86429be59e2d837e87bd5950135",
+        "new": "4fb05da8a1ff663a20f77639b9cb356c058e2f0f",
+        "subject": "porsche: verify compiled CLO DSP IPC and buffer permissions",
+        "tree_unchanged": true
+      },
+      {
+        "old": "d92aaef6200826a23bc6e747a10f4c417a45bcd9",
+        "new": "3129662705a4fbd78d2498e5bd66ba044d8ef401",
+        "subject": "porsche: isolate LG references and review AOSPA conventions",
+        "tree_unchanged": true
+      },
+      {
+        "old": "6b95ce403c0dac30f15a76da7cb9115d6a7397b7",
+        "new": "efe7e1aaebf2d5db65094455bd8677097590fad9",
+        "subject": "porsche: keep complete A17 Oplus HALs and record candidate comparison",
+        "tree_unchanged": true
+      },
+      {
+        "old": "1c5eaac2062631f853148c676fc9c1b49bcadfca",
+        "new": "157d0a63b238c06429cf8ae57365c3fe5c8474bc",
+        "subject": "porsche: verify boot images DTBO and kernel modules",
+        "tree_unchanged": true
+      },
+      {
+        "old": "7c513fcc8fdee03e68b4a4754bf9678a6bf90edc",
+        "new": "1ebb680276acab39f2c0c3c34a2520d88e9d3183",
+        "subject": "porsche: make image checks repeatable and record validation",
+        "tree_unchanged": true
+      },
+      {
+        "old": "5ed9c0fc5354d169e6a6507a65027f42e0960938",
+        "new": "c0b016d7fbc5ee1d15ff1c7ad779ceaa236f7bf4",
+        "subject": "porsche: refresh reference reviews with the integrated image milestone",
+        "tree_unchanged": true
+      },
+      {
+        "old": "4cf41015e6a938b22834c913fb63e82eabb45171",
+        "new": "8a5c390f55b30aec49eef07616a8adaa7acd7b96",
+        "subject": "porsche: declare A17 touch LiveDisplay and GNSS compatibility",
+        "tree_unchanged": true
+      },
+      {
+        "old": "9f1cb311d6d39c55653b91f24bdf828b0382b87d",
+        "new": "d1fc79889d209d9d0ebe27d729f55609946bb500",
+        "subject": "porsche: record provenance of legacy matrix interface APIs",
+        "tree_unchanged": true
+      },
+      {
+        "old": "cf26f96dcaca402de8f567cd2f5b26d120017e8e",
+        "new": "3476c00d9e76650bf7206a1052897243c49d4e6f",
+        "subject": "porsche: register verified A17 firmware in calcite OTA packaging",
+        "tree_unchanged": true
+      },
+      {
+        "old": "1843a8ba20b017f252855280e3f85a26168e1979",
+        "new": "47bbd36bab14db163f3068e82ca17a5f6bcd3dd9",
+        "subject": "porsche: use native A/B identity and audit OTA firmware",
+        "tree_unchanged": true
+      },
+      {
+        "old": "22a307a9ab064794ac099fe4233c521a7557a664",
+        "new": "db29bdefdb849c3e25735d2eb6ab85c974ea0c26",
+        "subject": "porsche: verify both protobuf and legacy OTA device assertions",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ceb53f63b471f81853a7ed11fbf6071119a4bcfd",
+        "new": "370a24142b0e5dec56f45b4d1e756845a306d8a8",
+        "subject": "porsche: audit packed recovery and vendor module dependencies",
+        "tree_unchanged": true
+      },
+      {
+        "old": "78051b24ca148c6a0ed7e45ee9502b5513920318",
+        "new": "280478f71056d611558caa7e02eb0a24d21e3858",
+        "subject": "porsche: review Giulia CLO structure and Oplus ancestry",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ad0ea77c5031a147769e87e24b657f0b8a898b85",
+        "new": "5df902dc627e197c85945789efa15722beb557ba",
+        "subject": "porsche: record signed calcite OTA and native validation",
+        "tree_unchanged": true
+      },
+      {
+        "old": "dbbb0001b73399049dd1c018c151ec2f85de8761",
+        "new": "cd5e09f444593f74462ccc519625ea282dada5e8",
+        "subject": "porsche: record final validated local port commit inventory",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ec70b8b887a8be5148bcc6c9a9c8303df659808d",
+        "new": "98574e642bbf3042f0fe6128b17c9b653f0518b7",
+        "subject": "dependencies: publish reproducible porsche source mappings",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ea2578dff8337074ed0c00ef012347163647b72b",
+        "new": "8da24a7ff897001ec33ba8493b29317053b05863",
+        "subject": "backup: record full source histories and publication mapping",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "device/oneplus/sm8350-common",
+    "original_branch": "a17-port",
+    "original_head": "e6487ae5270ed5b2d966c4955f5df5fa127c7c81",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "ddca46ae06aa15c0c392113ba81267c2a7d8ee9e",
+    "port_commits": [
+      {
+        "old": "2d09660a5bbb0a5753505e30d7926382282c60d5",
+        "new": "846bb738cf8b3cce0169cea82d58c76962dd6c60",
+        "subject": "sm8350-common: Adapt Android 17 platform integration for AOSPA",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ac106296ac682189604be36e81cb2ff192fc7323",
+        "new": "f4c86e3de0ed2c5da0e52e4baef3d09ff9f5ae56",
+        "subject": "sm8350-common: Use calcite-required ARMv8.2 secondary architecture",
+        "tree_unchanged": true
+      },
+      {
+        "old": "9990afd29312fc24d9c2df201bfe0e7c9b1c2085",
+        "new": "8c2a032f6512f832d7b0bc1aea4c372646b05af4",
+        "subject": "sm8350-common: export kernel UAPI and complete HAL ownership",
+        "tree_unchanged": true
+      },
+      {
+        "old": "aa42b06aa697ec02a304a0f035bfea0af6f3b255",
+        "new": "f2850d275f822c82557c338c9a4151541d21ef31",
+        "subject": "sm8350-common: export calcite CNE app JNI installation helper",
+        "tree_unchanged": true
+      },
+      {
+        "old": "ea21c139c97bdc48afbb9b81afb6bb5095b6aecf",
+        "new": "62af147f07dd0c64ec0d37343c9b00bbad821296",
+        "subject": "sm8350-common: record kernel modules and verify load lists",
+        "tree_unchanged": true
+      },
+      {
+        "old": "6853ba29ef7adbc01eac9f60bde00f766f3499f1",
+        "new": "8c370eadcce2b0302ba51daee75cb84022537e6d",
+        "subject": "sm8350-common: expose the reference fstab to first-stage init",
+        "tree_unchanged": true
+      },
+      {
+        "old": "1281114533f768713184d7eddfff6f1236b6476c",
+        "new": "df106d95777820c495bda977ed83f85e3dde99d2",
+        "subject": "sm8350-common: retain FM comparison blob and use AOSPA interface",
+        "tree_unchanged": true
+      },
+      {
+        "old": "5a23dcce4db1779237790a5759c4ed244a9a5f83",
+        "new": "943611b69cc6df5ab502c82c18b9bdad32d4c405",
+        "subject": "sm8350-common: hand GNSS config installation to calcite modules",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b670567afa307190756d056e993560700c8097d2",
+        "new": "17d33e1996d0d419b7e9ccecc946a1f39dbf63da",
+        "subject": "sm8350-common: export cleaned ARM UAPI and display selectors",
+        "tree_unchanged": true
+      },
+      {
+        "old": "34bd6d7ad47c3b815b106546e1c68474d6d18df5",
+        "new": "923b25c4b9386ffbb7f0a12b06ed36e1a762fae4",
+        "subject": "sm8350-common: select the kernel UFS BSG recovery interface",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b596f7cde821d017788c308f71396051c4f1879b",
+        "new": "dc5f7e66bda7c0ae239c89c57b73b5ac4bb2be55",
+        "subject": "sm8350-common: exclude the unselected Oplus candidate from source scans",
+        "tree_unchanged": true
+      },
+      {
+        "old": "4fa520cc03026219dce8ca047e0ab7076ab016a2",
+        "new": "79394b3a467e620c561f4613891cf0c3074e64ce",
+        "subject": "sm8350-common: preserve extended audio in calcite tinycompress",
+        "tree_unchanged": true
+      },
+      {
+        "old": "e6487ae5270ed5b2d966c4955f5df5fa127c7c81",
+        "new": "ddca46ae06aa15c0c392113ba81267c2a7d8ee9e",
+        "subject": "sm8350-common: retain the verified rmnet_data API for A17 netmgrd",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/aospa",
+    "original_branch": "a17-port",
+    "original_head": "dd7fcfcb42369830e0c8d061599d17dddf4ffcac",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "29de0ef9cdc12e524958355c62d8441221d20799",
+    "port_commits": [
+      {
+        "old": "c0e910139dce759b4d47ff1b920ad0f07a42d4ae",
+        "new": "7e0ccd9d5e2fb292f03c7ce57f1ce4a52aca4f7f",
+        "subject": "aospa: Integrate Android 17 porsche dependencies and product",
+        "tree_unchanged": true
+      },
+      {
+        "old": "433cd1ce9a5b12690e247617b12fa6e73172af87",
+        "new": "5e0484c336ebe415d7d252085207c1d186b389f9",
+        "subject": "porsche: complete modern dependencies and enforce 48-job sync",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b1c68daca90e7334cfba03fa130a7d74e2ea7974",
+        "new": "a75f5d73a5f134d28397ea50920da4ffa88cf4eb",
+        "subject": "porsche: supply Oplus eSIM policy dependency",
+        "tree_unchanged": true
+      },
+      {
+        "old": "203d29196bf88ed0ba9a76c9463925c7b165847b",
+        "new": "111b4f47da2bc18536e5e25d7c89b9edbcad11ce",
+        "subject": "build: share legacy QTI mountpoints with Soong mkdir modules",
+        "tree_unchanged": true
+      },
+      {
+        "old": "151261e4f25140d969d414c75538b2f909412b17",
+        "new": "dfb0b1c447bbf254509a670433a78bc88ccf8e99",
+        "subject": "porsche: order CLO domain declarations before policy extensions",
+        "tree_unchanged": true
+      },
+      {
+        "old": "8c463f466c31d905745782e9188d718357d3aad6",
+        "new": "bb0feae93f7994bab93b5a40400c04947e8f33c7",
+        "subject": "porsche: preserve the primary A17 tree dual-ABI app support",
+        "tree_unchanged": true
+      },
+      {
+        "old": "dd7fcfcb42369830e0c8d061599d17dddf4ffcac",
+        "new": "29de0ef9cdc12e524958355c62d8441221d20799",
+        "subject": "dependencies: select ShivaOPP forks for the porsche port",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/realme/porsche",
+    "original_branch": "a17-port",
+    "original_head": "e5b16dbd773f87b7381153ea5d04e54b3a4e29f6",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "8c2cb02435ecc26b8212acf621a2bf7ae5810fc2",
+    "port_commits": [
+      {
+        "old": "702940e96cc19f6123f500566199c8a281023539",
+        "new": "120e98a6c1fc7ce289f22a46894fba0bb1752bb4",
+        "subject": "porsche: Adapt blob imports and preserve installed radio firmware",
+        "tree_unchanged": true
+      },
+      {
+        "old": "e5b16dbd773f87b7381153ea5d04e54b3a4e29f6",
+        "new": "8c2cb02435ecc26b8212acf621a2bf7ae5810fc2",
+        "subject": "porsche: restore verified Android 17 firmware packaging",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/oneplus/sm8350-common",
+    "original_branch": "a17-port",
+    "original_head": "83f7a42393f2ccc7a72df8735123dc5524273b07",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "b4377b634479d5201d2183c74d73b08d515b2025",
+    "port_commits": [
+      {
+        "old": "b2bcca4924f3060c67221904958114ea9c53c77e",
+        "new": "0d9fa7d0e0a6bb0e38e9f7cb2b251cbf6012dfdf",
+        "subject": "sm8350-common: Align calcite imports and Porsche firmware ownership",
+        "tree_unchanged": true
+      },
+      {
+        "old": "be28ff0a0058eca578de614894e47a07c290359b",
+        "new": "88b60edaf831ff1142d6e8a65185530bbc02ae0e",
+        "subject": "sm8350-common: separate vendor FM from the AOSPA interface",
+        "tree_unchanged": true
+      },
+      {
+        "old": "8fae41d74d797e76949c2656c982c7b65395ea07",
+        "new": "bfbfb09bd29b8ef1e3db9dd77e617e293761b684",
+        "subject": "sm8350-common: bind A17 FM service to the calcite HIDL interface",
+        "tree_unchanged": true
+      },
+      {
+        "old": "83f7a42393f2ccc7a72df8735123dc5524273b07",
+        "new": "b4377b634479d5201d2183c74d73b08d515b2025",
+        "subject": "sm8350-common: expose unchanged GNSS config data as source groups",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/oplus/camera",
+    "original_branch": "a17-port",
+    "original_head": "113dc7013ed9a416e7d6ccaf89ea8ef6ee196923",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "45fb4221acdbd82396b6fe4d8931bb912db86594",
+    "port_commits": [
+      {
+        "old": "113dc7013ed9a416e7d6ccaf89ea8ef6ee196923",
+        "new": "45fb4221acdbd82396b6fe4d8931bb912db86594",
+        "subject": "camera: use the platform NN HAL attribute for DSP access",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/oplus",
+    "original_branch": "a17-port",
+    "original_head": "da1b5cc6b9e1d844c65941bcb2219ff5f8549499",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "2197b2f950faf1e7a79168b67254029060451f08",
+    "port_commits": [
+      {
+        "old": "7923565d2d7def7f4429ac07f6c565d0c6652f47",
+        "new": "6955d01d7ab2457c2bc0b274999295c7071201d0",
+        "subject": "oplus: Use calcite audio headers and CLO policy layout",
+        "tree_unchanged": true
+      },
+      {
+        "old": "09a7d0644b7e59e5d06be5aa3e05ed633ebaee09",
+        "new": "ed71dae9a0c28d4046b64ccbec82c86af7468e1d",
+        "subject": "oplus: use calcite settings resources and verified kernel headers",
+        "tree_unchanged": true
+      },
+      {
+        "old": "197b7f97c95c65d5e3b147fce6c6a3f08137d372",
+        "new": "bdfdd9569871b61a56a60502d0e7877e438a2b4d",
+        "subject": "oplus: declare separately managed eSIM policy source checkout",
+        "tree_unchanged": true
+      },
+      {
+        "old": "da1b5cc6b9e1d844c65941bcb2219ff5f8549499",
+        "new": "2197b2f950faf1e7a79168b67254029060451f08",
+        "subject": "oplus: align SOC and NFC policy ownership with calcite",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/dolby",
+    "original_branch": "a17-port",
+    "original_head": "73098f1ef375b42ccae1141ea0ec1f0515695425",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "73098f1ef375b42ccae1141ea0ec1f0515695425",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/pixelworks/interfaces",
+    "original_branch": "a17-port",
+    "original_head": "462ccb7db689de0a92cafdde5efb3c81fa617448",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "462ccb7db689de0a92cafdde5efb3c81fa617448",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "kernel/oneplus/sm8350",
+    "original_branch": "a17-port",
+    "original_head": "69a5611a6c172e03f4795e02951cc56f624536df",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "bc840733591d5a49d0ebe45c6cba6f8aa51f23f3",
+    "port_commits": [
+      {
+        "old": "69a5611a6c172e03f4795e02951cc56f624536df",
+        "new": "bc840733591d5a49d0ebe45c6cba6f8aa51f23f3",
+        "subject": "sm8350: export verified kernel UAPI aliases for calcite",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/lineage/interfaces",
+    "original_branch": "a17-port",
+    "original_head": "540e86480a8d88c8c616bbd030a976be3c02eaee",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "0b3769e6979788c70be6669c3ac4f790a5a05fc4",
+    "port_commits": [
+      {
+        "old": "2dc96a1c9661a6002fc577434203f14d60d89183",
+        "new": "2865dd0ec67d3fca09addeced36f589475e47aef",
+        "subject": "interfaces: Isolate upstream health from AOSPA health modules",
+        "tree_unchanged": true
+      },
+      {
+        "old": "540e86480a8d88c8c616bbd030a976be3c02eaee",
+        "new": "0b3769e6979788c70be6669c3ac4f790a5a05fc4",
+        "subject": "power: enumerate V7 audio mode without advertising support",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "device/lineage/sepolicy",
+    "original_branch": "a17-port",
+    "original_head": "96a7247e48d7e2e7127c2f090665e856de63247c",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "96a7247e48d7e2e7127c2f090665e856de63247c",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/qcom/opensource/audio-hal/primary-hal",
+    "original_branch": "a17-port",
+    "original_head": "e25d3f09faf379e98b8ed68bda9173d12974a33f",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "93b5338051c6d2cd9d4098728e0f090a2633192a",
+    "port_commits": [
+      {
+        "old": "e25d3f09faf379e98b8ed68bda9173d12974a33f",
+        "new": "93b5338051c6d2cd9d4098728e0f090a2633192a",
+        "subject": "audio: use Bionic-clean SM8350 UAPI for dual-ABI Porsche clients",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/qcom/display",
+    "original_branch": "a17-port",
+    "original_head": "126670adf39d253ee58323239ec7bd05770ac7d8",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "126670adf39d253ee58323239ec7bd05770ac7d8",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/qcom/gps",
+    "original_branch": "a17-port",
+    "original_head": "54e63cb6ed999ba4802f00d546eee50b985d69ad",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "8d3dc3af848187967d2379cc46df8d4d4dde5ea9",
+    "port_commits": [
+      {
+        "old": "54e63cb6ed999ba4802f00d546eee50b985d69ad",
+        "new": "8d3dc3af848187967d2379cc46df8d4d4dde5ea9",
+        "subject": "gps: allow calcite config modules to use the A17 SM8350 data",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/qcom/media",
+    "original_branch": "a17-port",
+    "original_head": "64b5ade361daa23f2b1299adb587183722aaaf30",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "64b5ade361daa23f2b1299adb587183722aaaf30",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/google/pixel",
+    "original_branch": "a17-port",
+    "original_head": "6b53454cbdf7aa13d142ebb7054b9cb9281f2126",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "93ba0f459b9c97cd34f00cb59063d7c117e71c35",
+    "port_commits": [
+      {
+        "old": "84e9844c5ff1ef61d6b9e93a2dc9a978d4005daa",
+        "new": "5f11ffa7a4d9044e0b9c9ab2d4a0e7c4eedff7ba",
+        "subject": "health: align AIDL bindings with calcite V5 translation library",
+        "tree_unchanged": true
+      },
+      {
+        "old": "6b53454cbdf7aa13d142ebb7054b9cb9281f2126",
+        "new": "93ba0f459b9c97cd34f00cb59063d7c117e71c35",
+        "subject": "pixelstats: use the Android 17 stats module annotation name",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/qcom-caf/common",
+    "original_branch": "a17-port",
+    "original_head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/qcom/opensource/thermal-hal",
+    "original_branch": "a17-port",
+    "original_head": "339ecff03f7509351035c6d33cef2b5768c86f6d",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "339ecff03f7509351035c6d33cef2b5768c86f6d",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/oplus/packages/EuiccPolicy",
+    "original_branch": "a17-port",
+    "original_head": "7232f94f1a908272d4b72bf13277a54c889f9f2c",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "7232f94f1a908272d4b72bf13277a54c889f9f2c",
+    "port_commits": [],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/oplus-a14-ref",
+    "original_branch": "a17-port",
+    "original_head": "3449e9a2ab5a7947b30ea0b7d9634c5bbfb4aec6",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "211c074b97bcdfb1096096bd4f5f0c7fff1c5344",
+    "port_commits": [
+      {
+        "old": "3449e9a2ab5a7947b30ea0b7d9634c5bbfb4aec6",
+        "new": "211c074b97bcdfb1096096bd4f5f0c7fff1c5344",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/realme-a14-ref",
+    "original_branch": "a17-port",
+    "original_head": "e9cb4e4cd9cd3063341041148d2ead78a7743f6d",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "b627b8d5b5ac6e0c7e88155988b79d1ae2e46929",
+    "port_commits": [
+      {
+        "old": "e9cb4e4cd9cd3063341041148d2ead78a7743f6d",
+        "new": "b627b8d5b5ac6e0c7e88155988b79d1ae2e46929",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/realme-a17-ref/porsche",
+    "original_branch": "a17-port",
+    "original_head": "022c685aedb345f61313564cf910b3a0d56e0454",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "bf794257cb5d90ed665b44981f57abfb297bb6aa",
+    "port_commits": [
+      {
+        "old": "022c685aedb345f61313564cf910b3a0d56e0454",
+        "new": "bf794257cb5d90ed665b44981f57abfb297bb6aa",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/oplus/camera-a14-ref",
+    "original_branch": "a17-port",
+    "original_head": "e9863893aa047ae81f15e9bae016469886c90966",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "b4350ffa244f41f6bb2ecca0161f16999da27673",
+    "port_commits": [
+      {
+        "old": "e9863893aa047ae81f15e9bae016469886c90966",
+        "new": "b4350ffa244f41f6bb2ecca0161f16999da27673",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/nxp/opensource/halimpl-a14-ref",
+    "original_branch": "a17-port",
+    "original_head": "8d12c33d39b675e05367c35f87b6c81b945934a3",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "456954a2375e32c3650de50ae6dd0748f65bc356",
+    "port_commits": [
+      {
+        "old": "8d12c33d39b675e05367c35f87b6c81b945934a3",
+        "new": "456954a2375e32c3650de50ae6dd0748f65bc356",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "vendor/nxp/opensource/hidlimpl-a14-ref",
+    "original_branch": "a17-port",
+    "original_head": "8a2ff9f1b1dc17c566979b394c98afb25729edc7",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "ef5b540822cc71af36e4276fef884b9f001dbe2e",
+    "port_commits": [
+      {
+        "old": "8a2ff9f1b1dc17c566979b394c98afb25729edc7",
+        "new": "ef5b540822cc71af36e4276fef884b9f001dbe2e",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "kernel/msm-5.4",
+    "original_branch": "a17-port",
+    "original_head": "de7085608e8df8f50bd8b51ef535753808c6067c",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "d6fe7f67390b46bd8ac3c4eeecb98361b8b52b8c",
+    "port_commits": [
+      {
+        "old": "de7085608e8df8f50bd8b51ef535753808c6067c",
+        "new": "d6fe7f67390b46bd8ac3c4eeecb98361b8b52b8c",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "device/realme/porsche-a17-ref",
+    "original_branch": "a17-port",
+    "original_head": "c14f48fb229529d1fe60861d724215a39d771f42",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "ae644fcfb8d5cb85b2908d719d4d6834877114a6",
+    "port_commits": [
+      {
+        "old": "c14f48fb229529d1fe60861d724215a39d771f42",
+        "new": "ae644fcfb8d5cb85b2908d719d4d6834877114a6",
+        "subject": "porsche: exclude preserved reference checkout from Android scanning",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "device/qcom/common",
+    "original_branch": "a17-port",
+    "original_head": "acc799abbd32464d8b558723ebdff7739158e0ca",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "e553f6de3fadd5f6707d7e092d84428c5f7f64f6",
+    "port_commits": [
+      {
+        "old": "c9f9220c574ef35bbd5138664da7a3b549fb6a41",
+        "new": "2cd9bbf718a8c667e357ec185d4e81017730af3e",
+        "subject": "sepolicy: remove stale QMS vendor-Binder and unused IIop contexts",
+        "tree_unchanged": true
+      },
+      {
+        "old": "2a7fd19345f307f610c0bce05430e4cbbe5ff83c",
+        "new": "bd2e991fdb88a700808834cf9569e4ec19a8d063",
+        "subject": "sepolicy: revert the initial stale-context removal",
+        "tree_unchanged": true
+      },
+      {
+        "old": "acc799abbd32464d8b558723ebdff7739158e0ca",
+        "new": "e553f6de3fadd5f6707d7e092d84428c5f7f64f6",
+        "subject": "sepolicy: keep current CLO QMS and IPerf service contexts",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "device/qcom/sepolicy",
+    "original_branch": "a17-port",
+    "original_head": "b0e119091f787be8cb4d22a8a4db6fb98e7b43af",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "8cb35f57bb384bee852e143313dec05c94f8b799",
+    "port_commits": [
+      {
+        "old": "723fae36c4d292720a09cbd4434b5f8ef08f53b6",
+        "new": "34261d5f2c00a9fe20a63be78fe3f8645ef6a31d",
+        "subject": "sepolicy: retain brokered DSP IPC without isolated compute discovery",
+        "tree_unchanged": true
+      },
+      {
+        "old": "b0e119091f787be8cb4d22a8a4db6fb98e7b43af",
+        "new": "8cb35f57bb384bee852e143313dec05c94f8b799",
+        "subject": "sepolicy: preserve CLO DSP shared-memory buffer permissions",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "build/make",
+    "original_branch": "a17-port",
+    "original_head": "97df0ea4521f519c46b4640039e1488051db5dcf",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "287be02994cf12c93c224be16247d5cae427d92e",
+    "port_commits": [
+      {
+        "old": "97df0ea4521f519c46b4640039e1488051db5dcf",
+        "new": "287be02994cf12c93c224be16247d5cae427d92e",
+        "subject": "build: configure the requested BuildBuddy RBE client",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "build/soong",
+    "original_branch": "a17-port",
+    "original_head": "198c84cd85dde73dd7e8963cfd7a76afafd4e044",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "868980ac268f93a1e193f41942d160ef3c9dfd20",
+    "port_commits": [
+      {
+        "old": "198c84cd85dde73dd7e8963cfd7a76afafd4e044",
+        "new": "868980ac268f93a1e193f41942d160ef3c9dfd20",
+        "subject": "soong: select the requested BuildBuddy RBE client",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "hardware/interfaces",
+    "original_branch": "a17-port",
+    "original_head": "34068eacac0738c3b778cede7360d89e7f44d6ae",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "22324f6348b773cef313019e1b55117972eef13c",
+    "port_commits": [
+      {
+        "old": "34068eacac0738c3b778cede7360d89e7f44d6ae",
+        "new": "22324f6348b773cef313019e1b55117972eef13c",
+        "subject": "interfaces: retain legacy HIDL APIs referenced by calcite FCM 6",
+        "tree_unchanged": true
+      }
+    ],
+    "tree_unchanged": true
+  },
+  {
+    "path": "frameworks/base",
+    "original_branch": "a17-port",
+    "original_head": "2d3deacd4c78b696368d42a7857ac784afda3175",
+    "corrected_branch": "a17-port-shiva",
+    "corrected_head": "2d3deacd4c78b696368d42a7857ac784afda3175",
+    "port_commits": [],
+    "tree_unchanged": true
+  }
+]

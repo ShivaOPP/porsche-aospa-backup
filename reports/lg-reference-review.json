@@ -1,0 +1,87 @@
+{
+  "repositories": [
+    {
+      "path": "ref-lg/device/lge/timelm",
+      "remote": "https://github.com/v60-archive/device_lge_timelm",
+      "branch": "aospa",
+      "commit": "9e1f610be78c0df03b7ec64c26fb8405cad5f013",
+      "shallow": false
+    },
+    {
+      "path": "ref-lg/vendor/lge/timelm",
+      "remote": "https://github.com/v60-archive/vendor_lge_timelm",
+      "branch": "aospa",
+      "commit": "e4e10336b094848d772f860e8dabebcce1e6c73b",
+      "shallow": false
+    },
+    {
+      "path": "ref-lg/hardware/lge",
+      "remote": "https://github.com/v60-archive/hardware_lge",
+      "branch": "aospa",
+      "commit": "b46d59778903939e84eb52b60cd1d367a7307606",
+      "shallow": false
+    },
+    {
+      "path": "ref-lg/kernel/lge/sm8250-prebuilt",
+      "remote": "https://github.com/v60-archive/aospa_kernel_lge_prebuilt-sm8250",
+      "branch": "aospa",
+      "commit": "3d6fa98c5b9d1077bb962ccfc88b4a20bef63ddd",
+      "shallow": false
+    }
+  ],
+  "classification": {
+    "android": 17,
+    "aospa_platform_branch": "calcite",
+    "maintainer_rom": "PenguinOS celerity",
+    "older_than_calcite_android_base": false,
+    "basis": [
+      "The maintainer penguin17 local manifest pins these exact four repositories to aospa.",
+      "The matching Project-PenguinOS celerity platform manifest pins android-17.0.0_r1 and AOSPA remotes to calcite.",
+      "Stock Android 13 fingerprints are blob provenance, not ROM base."
+    ],
+    "manifest_urls": [
+      "https://github.com/v60-archive/manifest/blob/penguin17/timelm.xml",
+      "https://github.com/Project-PenguinOS/manifest/blob/celerity/default.xml"
+    ],
+    "history_examples": [
+      "device 938e980: adapted to AOSPA on 2026-11-04",
+      "hardware ef12919: Android 17 camera metadata adaptation",
+      "kernel 0de4d0a: per-architecture userspace UAPI exports and module consistency"
+    ]
+  },
+  "changes_inspired_by_reference": [
+    "Exclude ref-lg from Android scans using .find-ignore and PRODUCT_SOURCE_ROOT_DIRS.",
+    "Use shared/ARM/ARM64 kernel header exports, generated exclusively from the Porsche SM8350 kernel and cleaned using local Bionic tools; preserve raw snapshots and inline techpack helpers.",
+    "Restore calcite qtidisplay default/DRM-PP/Gralloc4 selectors omitted when opting out of duplicate QTI component bundles; values are verified in native calcite display config and the primary A17 CAF board hooks.",
+    "Preserve the primary A17 Porsche core_64_bit.mk inheritance and dual-ABI app/zygote behavior, also supported by the LG integration and current calcite core files."
+  ],
+  "service_context_review": {
+    "lge_files": [
+      "hardware/lge/sepolicy/private/service_contexts",
+      "hardware/lge/sepolicy/vendor/hwservice_contexts"
+    ],
+    "qms_or_iop_substitute_in_lg": false,
+    "porsche_decision": "Keep the validated CLO Binder QMS and HIDL IPerf mappings; no LG mappings or HAL policy copied.",
+    "validation": "Native selinux_policy PASS, including final sepolicy_test; compiled DSP IPC audit PASS."
+  },
+  "hardware_values_imported": false,
+  "build_status": "PASS: ARM/ARM64 display, selected Oplus HALs, UFS recovery, SELinux, integrated images and module dependency closure, VINTF with kernel requirements, and full signed OTA with metadata/firmware audit. Hardware boot remains untested.",
+  "verified_existing_integration": [
+    "Current calcite central product/lunch registration and aospa-target inheritance remain valid.",
+    "Native beans.xml plus JSON/local-manifest artifacts are retained.",
+    "No additional LG-derived service-context edits; current CLO active QMS/IPerf files remain unchanged."
+  ],
+  "display_validation": {
+    "exit": 0,
+    "architectures": [
+      "arm",
+      "arm64"
+    ],
+    "modules": [
+      "libdrmutils",
+      "libgrallocutils"
+    ],
+    "log": ".repo/porsche-rbe-display-02.log",
+    "ref_lg_modules_in_generated_graph": false
+  }
+}

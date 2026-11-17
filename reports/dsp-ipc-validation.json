@@ -1,0 +1,151 @@
+{
+  "policy": "out/soong/.intermediates/system/sepolicy/precompiled_sepolicy/android_common/porsche/precompiled_sepolicy",
+  "sha256": "29de0aa6e91d06fe52f75b354e5eaaf1b4c5505e5fe412b5296df04b279c5dce",
+  "pass": true,
+  "checks": [
+    {
+      "source": "isolated_compute_app",
+      "target": "vendor_dspservice",
+      "class": "binder",
+      "required": [
+        "call",
+        "transfer"
+      ],
+      "forbidden": [],
+      "actual": [
+        "call",
+        "transfer"
+      ],
+      "pass": true
+    },
+    {
+      "source": "isolated_compute_app",
+      "target": "vendor_dspservice",
+      "class": "fd",
+      "required": [
+        "use"
+      ],
+      "forbidden": [],
+      "actual": [
+        "use"
+      ],
+      "pass": true
+    },
+    {
+      "source": "isolated_compute_app",
+      "target": "vendor_dspservice",
+      "class": "memfd_file",
+      "required": [
+        "getattr",
+        "map",
+        "read",
+        "write"
+      ],
+      "forbidden": [],
+      "actual": [
+        "getattr",
+        "ioctl",
+        "map",
+        "read",
+        "write"
+      ],
+      "pass": true
+    },
+    {
+      "source": "vendor_dspservice",
+      "target": "isolated_compute_app",
+      "class": "binder",
+      "required": [
+        "call",
+        "transfer"
+      ],
+      "forbidden": [],
+      "actual": [
+        "call",
+        "transfer"
+      ],
+      "pass": true
+    },
+    {
+      "source": "vendor_dspservice",
+      "target": "isolated_compute_app",
+      "class": "fd",
+      "required": [
+        "use"
+      ],
+      "forbidden": [],
+      "actual": [
+        "use"
+      ],
+      "pass": true
+    },
+    {
+      "source": "vendor_dspservice",
+      "target": "isolated_compute_app",
+      "class": "memfd_file",
+      "required": [
+        "getattr",
+        "map",
+        "read",
+        "write"
+      ],
+      "forbidden": [],
+      "actual": [
+        "getattr",
+        "map",
+        "read",
+        "write"
+      ],
+      "pass": true
+    },
+    {
+      "source": "isolated_compute_app",
+      "target": "vendor_hal_dspmanager_hwservice",
+      "class": "hwservice_manager",
+      "required": [],
+      "forbidden": [
+        "find"
+      ],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "source": "untrusted_app",
+      "target": "vendor_hal_dspmanager_hwservice",
+      "class": "hwservice_manager",
+      "required": [
+        "find"
+      ],
+      "forbidden": [],
+      "actual": [
+        "find"
+      ],
+      "pass": true
+    },
+    {
+      "source": "isolated_compute_app",
+      "target": "vendor_hal_dspmanager_aidlservice",
+      "class": "service_manager",
+      "required": [],
+      "forbidden": [
+        "find"
+      ],
+      "actual": [],
+      "pass": true
+    },
+    {
+      "source": "untrusted_app",
+      "target": "vendor_hal_dspmanager_aidlservice",
+      "class": "service_manager",
+      "required": [
+        "find"
+      ],
+      "forbidden": [],
+      "actual": [
+        "find"
+      ],
+      "pass": true
+    }
+  ],
+  "limit": "Compiled permissions only; DSP handle delivery still needs runtime testing."
+}

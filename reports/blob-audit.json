@@ -1,0 +1,34 @@
+{
+  "source_coverage_passed": true,
+  "link_and_vintf_compatibility": "requires Soong build checks",
+  "inventories": [
+    {
+      "inventory": "device/realme/porsche/proprietary-files.txt",
+      "vendor_root": "vendor/realme/porsche",
+      "entries": 933,
+      "missing_files": [],
+      "missing_install_rules": []
+    },
+    {
+      "inventory": "device/oneplus/sm8350-common/proprietary-files.txt",
+      "vendor_root": "vendor/oneplus/sm8350-common",
+      "entries": 1427,
+      "missing_files": [],
+      "missing_install_rules": []
+    },
+    {
+      "inventory": "vendor/oplus/camera/proprietary-files.txt",
+      "vendor_root": "vendor/oplus/camera",
+      "entries": 41,
+      "missing_files": [],
+      "missing_install_rules": []
+    },
+    {
+      "inventory": "hardware/dolby/proprietary-files.txt",
+      "vendor_root": "hardware/dolby",
+      "entries": 23,
+      "missing_files": [],
+      "missing_install_rules": []
+    }
+  ]
+}

@@ -1,0 +1,427 @@
+[
+  {
+    "path": "device/realme/porsche",
+    "repository": "ShivaOPP/android_device_realme_porsche",
+    "url": "https://github.com/ShivaOPP/android_device_realme_porsche",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629",
+    "total_commits": 861,
+    "port_commits": 38,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "ea2578dff8337074ed0c00ef012347163647b72b",
+      "uvite": "93aca6f949e2352216e3875f899b8e1b84446008"
+    },
+    "verified": true
+  },
+  {
+    "path": "device/oneplus/sm8350-common",
+    "repository": "ShivaOPP/android_device_oneplus_sm8350-common",
+    "url": "https://github.com/ShivaOPP/android_device_oneplus_sm8350-common",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "ddca46ae06aa15c0c392113ba81267c2a7d8ee9e",
+    "total_commits": 1157,
+    "port_commits": 13,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "e6487ae5270ed5b2d966c4955f5df5fa127c7c81",
+      "seventeen": "d82d9df2ee14f18f2f97c73f87ad05b8364a3c11"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/aospa",
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "url": "https://github.com/ShivaOPP/android_vendor_aospa",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a",
+    "total_commits": 1852,
+    "port_commits": 8,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "aospa-android17": "69269c7def8364cfe7c9007667ae5ed13ff01bbd",
+      "porsche-aospa": "dd7fcfcb42369830e0c8d061599d17dddf4ffcac",
+      "server-backup-20261117": "69269c7def8364cfe7c9007667ae5ed13ff01bbd"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/realme/porsche",
+    "repository": "ShivaOPP/proprietary_vendor_realme_porsche",
+    "url": "https://github.com/ShivaOPP/proprietary_vendor_realme_porsche",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "8c2cb02435ecc26b8212acf621a2bf7ae5810fc2",
+    "total_commits": 7,
+    "port_commits": 2,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "e5b16dbd773f87b7381153ea5d04e54b3a4e29f6"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/oneplus/sm8350-common",
+    "repository": "ShivaOPP/proprietary_vendor_oneplus_sm8350-common",
+    "url": "https://github.com/ShivaOPP/proprietary_vendor_oneplus_sm8350-common",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "b4377b634479d5201d2183c74d73b08d515b2025",
+    "total_commits": 84,
+    "port_commits": 4,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "83f7a42393f2ccc7a72df8735123dc5524273b07"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/oplus/camera",
+    "repository": "ShivaOPP/proprietary_vendor_oplus_camera",
+    "url": "https://github.com/ShivaOPP/proprietary_vendor_oplus_camera",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "45fb4221acdbd82396b6fe4d8931bb912db86594",
+    "total_commits": 31,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "113dc7013ed9a416e7d6ccaf89ea8ef6ee196923"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/oplus",
+    "repository": "ShivaOPP/android_hardware_oplus",
+    "url": "https://github.com/ShivaOPP/android_hardware_oplus",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "2197b2f950faf1e7a79168b67254029060451f08",
+    "total_commits": 782,
+    "port_commits": 4,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "da1b5cc6b9e1d844c65941bcb2219ff5f8549499",
+      "seventeen": "ff49635b78dbfa43008a3a5ffe428bde494d065f"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/dolby",
+    "repository": "ShivaOPP/android_hardware_dolby",
+    "url": "https://github.com/ShivaOPP/android_hardware_dolby",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "73098f1ef375b42ccae1141ea0ec1f0515695425",
+    "total_commits": 47,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "73098f1ef375b42ccae1141ea0ec1f0515695425"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/pixelworks/interfaces",
+    "repository": "ShivaOPP/android_hardware_pixelworks_interfaces",
+    "url": "https://github.com/ShivaOPP/android_hardware_pixelworks_interfaces",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "462ccb7db689de0a92cafdde5efb3c81fa617448",
+    "total_commits": 9,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "lineage-24.0": "80fa86ece0ab820b02ff059bc1c1b1f9e5f219a3",
+      "porsche-aospa": "462ccb7db689de0a92cafdde5efb3c81fa617448"
+    },
+    "verified": true
+  },
+  {
+    "path": "kernel/oneplus/sm8350",
+    "repository": "ShivaOPP/android_kernel_oneplus_sm8350",
+    "url": "https://github.com/ShivaOPP/android_kernel_oneplus_sm8350",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "bc840733591d5a49d0ebe45c6cba6f8aa51f23f3",
+    "total_commits": 982615,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "69a5611a6c172e03f4795e02951cc56f624536df",
+      "seventeen": "de236545b87104877131cf5dd7717760231bf556"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/lineage/interfaces",
+    "repository": "ShivaOPP/android_hardware_lineage_interfaces",
+    "url": "https://github.com/ShivaOPP/android_hardware_lineage_interfaces",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "0b3769e6979788c70be6669c3ac4f790a5a05fc4",
+    "total_commits": 520,
+    "port_commits": 2,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "lineage-24.0": "4f6225db0d3c8cda1f59641fe0d7e53bd5e6449a",
+      "porsche-aospa": "540e86480a8d88c8c616bbd030a976be3c02eaee"
+    },
+    "verified": true
+  },
+  {
+    "path": "device/lineage/sepolicy",
+    "repository": "ShivaOPP/android_device_lineage_sepolicy",
+    "url": "https://github.com/ShivaOPP/android_device_lineage_sepolicy",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "96a7247e48d7e2e7127c2f090665e856de63247c",
+    "total_commits": 369,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "lineage-24.0": "dcb3eff48bf8f79c2dc2dfd5e0941fcf967991fc",
+      "porsche-aospa": "96a7247e48d7e2e7127c2f090665e856de63247c"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/qcom/opensource/audio-hal/primary-hal",
+    "repository": "ShivaOPP/android_hardware_qcom_audio",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom_audio",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "93b5338051c6d2cd9d4098728e0f090a2633192a",
+    "total_commits": 7463,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "e25d3f09faf379e98b8ed68bda9173d12974a33f",
+      "uvite-8550": "4560099360b0704dc26c295cb403a88055dcb499"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/qcom/display",
+    "repository": "ShivaOPP/android_hardware_qcom_display",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom_display",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "126670adf39d253ee58323239ec7bd05770ac7d8",
+    "total_commits": 6139,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "126670adf39d253ee58323239ec7bd05770ac7d8",
+      "uvite-8550": "d40d593a63a56ae7a7e9616518c7158fbb27e447"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/qcom/gps",
+    "repository": "ShivaOPP/android_hardware_qcom_gps",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom_gps",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "8d3dc3af848187967d2379cc46df8d4d4dde5ea9",
+    "total_commits": 2364,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "54e63cb6ed999ba4802f00d546eee50b985d69ad",
+      "uvite-8550": "40b41634d1bc28efcc93bc0e5740ff4dea50e8a8"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/qcom/media",
+    "repository": "ShivaOPP/android_hardware_qcom_media",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom_media",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "64b5ade361daa23f2b1299adb587183722aaaf30",
+    "total_commits": 3675,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "64b5ade361daa23f2b1299adb587183722aaaf30",
+      "uvite-8550": "9533b74b0b2552610fcb94cd00f95cf5a5cb8585"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/google/pixel",
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "url": "https://github.com/ShivaOPP/android_hardware_google_pixel",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "93ba0f459b9c97cd34f00cb59063d7c117e71c35",
+    "total_commits": 7430,
+    "port_commits": 2,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "aospa-android17": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f",
+      "porsche-aospa": "6b53454cbdf7aa13d142ebb7054b9cb9281f2126",
+      "server-backup-20261117": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/qcom-caf/common",
+    "repository": "ShivaOPP/android_hardware_qcom-caf_common",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom-caf_common",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed",
+    "total_commits": 131,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "lineage-24.0": "4c13a7e651086fc4332a609cff64d2af3d4e60fd",
+      "porsche-aospa": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed"
+    },
+    "verified": true
+  },
+  {
+    "path": "vendor/qcom/opensource/thermal-hal",
+    "repository": "ShivaOPP/android_hardware_qcom_thermal",
+    "url": "https://github.com/ShivaOPP/android_hardware_qcom_thermal",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "339ecff03f7509351035c6d33cef2b5768c86f6d",
+    "total_commits": 182,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "calcite": "e6606b4637b49ca0d993661015689bcad2d9f46c",
+      "porsche-aospa": "339ecff03f7509351035c6d33cef2b5768c86f6d"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/oplus/packages/EuiccPolicy",
+    "repository": "ShivaOPP/android_packages_apps_EuiccPolicy",
+    "url": "https://github.com/ShivaOPP/android_packages_apps_EuiccPolicy",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "7232f94f1a908272d4b72bf13277a54c889f9f2c",
+    "total_commits": 17,
+    "port_commits": 0,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "lineage-24.0": "3b3c28e8e537ffd182def2dedde3987b01a60f0f",
+      "porsche-aospa": "7232f94f1a908272d4b72bf13277a54c889f9f2c"
+    },
+    "verified": true
+  },
+  {
+    "path": "device/qcom/common",
+    "repository": "ShivaOPP/android_device_qcom_common",
+    "url": "https://github.com/ShivaOPP/android_device_qcom_common",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "e553f6de3fadd5f6707d7e092d84428c5f7f64f6",
+    "total_commits": 2857,
+    "port_commits": 3,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "calcite": "df812783f7f38702769c2b32f927c6ea1ea9d78a",
+      "porsche-aospa": "acc799abbd32464d8b558723ebdff7739158e0ca"
+    },
+    "verified": true
+  },
+  {
+    "path": "device/qcom/sepolicy",
+    "repository": "ShivaOPP/sepolicy",
+    "url": "https://github.com/ShivaOPP/sepolicy",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "8cb35f57bb384bee852e143313dec05c94f8b799",
+    "total_commits": 3875,
+    "port_commits": 2,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "porsche-aospa": "b0e119091f787be8cb4d22a8a4db6fb98e7b43af"
+    },
+    "verified": true
+  },
+  {
+    "path": "build/make",
+    "repository": "ShivaOPP/android_build",
+    "url": "https://github.com/ShivaOPP/android_build",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "287be02994cf12c93c224be16247d5cae427d92e",
+    "total_commits": 113802,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "aospa-android17": "cb895e6e63373036dd61de8828ed206e9027ee91",
+      "porsche-aospa": "97df0ea4521f519c46b4640039e1488051db5dcf",
+      "server-backup-20261117": "cb895e6e63373036dd61de8828ed206e9027ee91"
+    },
+    "verified": true
+  },
+  {
+    "path": "build/soong",
+    "repository": "ShivaOPP/android_build_soong",
+    "url": "https://github.com/ShivaOPP/android_build_soong",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "868980ac268f93a1e193f41942d160ef3c9dfd20",
+    "total_commits": 97597,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "aospa-android17": "8fa2636eac5167c63e69bbfd8234d2baf069d461",
+      "porsche-aospa": "198c84cd85dde73dd7e8963cfd7a76afafd4e044",
+      "server-backup-20261117": "8fa2636eac5167c63e69bbfd8234d2baf069d461"
+    },
+    "verified": true
+  },
+  {
+    "path": "hardware/interfaces",
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "url": "https://github.com/ShivaOPP/android_hardware_interfaces",
+    "visibility": "PUBLIC",
+    "branch": "porsche-aospa-shiva",
+    "head": "22324f6348b773cef313019e1b55117972eef13c",
+    "total_commits": 76528,
+    "port_commits": 1,
+    "creation": "existing",
+    "visibility_changed": false,
+    "preexisting_branches_unchanged": {
+      "aospa-android17": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a",
+      "porsche-aospa": "34068eacac0738c3b778cede7360d89e7f44d6ae",
+      "server-backup-20261117": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a"
+    },
+    "verified": true
+  }
+]

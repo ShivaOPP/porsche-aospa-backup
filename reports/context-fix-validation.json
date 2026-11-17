@@ -1,0 +1,59 @@
+{
+  "baseline": "df812783f7f38702769c2b32f927c6ea1ea9d78a",
+  "protected_sha256": {
+    "device/qcom/sepolicy_vndr/generic/vendor/common/service_contexts": "24a4d153a660b1108ed12f444df7235c9efcf001ae35aab51ac58890ad7a9ad6",
+    "device/qcom/sepolicy_vndr/generic/vendor/common/service.te": "3684d784a6c933d954904538ec823466ceb5ddf245988167f07f2572090c5c0a",
+    "device/qcom/sepolicy_vndr/generic/vendor/common/hwservice_contexts": "dbcfbd2af316fbbcad5e809934e54d576ba261ee4fdaf7e101701623b20cd844",
+    "device/qcom/sepolicy_vndr/generic/vendor/common/hwservice.te": "2fde7c0a37cf7ce0a1a500f9a8e1ca61f6208b7283057e1a507ea6a45d54201a"
+  },
+  "commit": "c9f9220c574ef35bbd5138664da7a3b549fb6a41",
+  "files": [
+    "sepolicy/generic/vendor/common/vndservice_contexts",
+    "sepolicy/qva/vendor/common/hwservice_contexts"
+  ],
+  "setup_exit": 0,
+  "selinux_exit": 1,
+  "vintf_exit": 1,
+  "mapping_hashes_unchanged": true,
+  "working_tree_changes": [],
+  "commit_files_verified": true,
+  "reverted": true,
+  "revert_commit": "2a7fd19345f307f610c0bce05430e4cbbe5ff83c",
+  "restored_to_baseline": true,
+  "vintf_status": "Interrupted before compatibility verdict after SELinux failed, to honor rollback condition.",
+  "selinux_failure": "Final sepolicy_test rejects isolated_compute_app find access to vendor_hal_dspmanager_hwservice and vendor_hal_dspmanager_aidlservice.",
+  "proposed_fix": {
+    "patch": "porting/patches/calcite-dsp-isolation.patch",
+    "target": "device/qcom/sepolicy/generic/product/private/isolated_compute_app.te",
+    "status": "Applied as 723fae3 following expanded authorization; SELinux validation passed.",
+    "behavior": "Keep DSP Binder calls and FD transfer, without granting isolated compute processes direct service discovery."
+  },
+  "next_attempt": {
+    "authorization": "User authorized continuing fixes without further approval; keep CLO behavior and hardware support.",
+    "qcom_common_commit": "acc799abbd32464d8b558723ebdff7739158e0ca",
+    "qcom_policy_commit": "723fae36c4d292720a09cbd4434b5f8ef08f53b6",
+    "selinux_exit": 0,
+    "selinux_log": ".repo/porsche-rbe-selinux.log",
+    "selinux_status": "PASS: compilation, neverallows, context tests, Treble compatibility tests, and final sepolicy_test.",
+    "rbe_stats": {
+      "remote_executions": 1440,
+      "cache_hits": 5,
+      "download_MB": 180.85,
+      "upload_MB": 8.66
+    },
+    "vintf_status": "PASS: direct framework/vendor consistency and full compatibility, including actual kernel requirements; vintf-validation.json.",
+    "build_log": ".repo/porsche-rbe-ota-13.log",
+    "remaining_runtime_check": "Validate isolated compute DSP handle delivery; normal camera/app DSP client memberships remain unchanged.",
+    "dsp_memfd_commit": "b0e119091f787be8cb4d22a8a4db6fb98e7b43af",
+    "selinux_after_memfd": "PASS: native selinux_policy target, exit 0.",
+    "selinux_after_memfd_log": ".repo/porsche-rbe-selinux-02.log",
+    "dsp_compiled_audit": "PASS: bidirectional Binder, FD, memfd; normal client discovery retained; isolated discovery absent.",
+    "dsp_compiled_report": "porting/dsp-ipc-validation.json",
+    "protected_mapping_hashes_unchanged": true,
+    "only_original_two_files_changed": true,
+    "vintf_exit": 0,
+    "native_combined_build_exit": 0,
+    "native_combined_build_log": ".repo/porsche-rbe-ota-13.log"
+  },
+  "current_active_fix": "acc799abbd32464d8b558723ebdff7739158e0ca"
+}

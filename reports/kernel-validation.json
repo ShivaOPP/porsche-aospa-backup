@@ -1,0 +1,74 @@
+{
+  "kernel": "kernel/oneplus/sm8350",
+  "commit": "69a5611a6c172e03f4795e02951cc56f624536df",
+  "clang": "r563880c",
+  "defconfig": "vendor/lahaina-qgki_defconfig",
+  "dtbs_compiled": true,
+  "outputs": [
+    {
+      "file": "porsche-lahaina-v2.1.dtb",
+      "bytes": 477044,
+      "sha256": "b96309378c3c0477fa7ccfdbc5df7c3e17e89cd2018c9b30603b1c10798300cd"
+    },
+    {
+      "file": "porsche-lahaina-v2.dtb",
+      "bytes": 477052,
+      "sha256": "0d4846cff11cdb285eec1a9186717c8abfe4503c9c4b377d77decbdcbe7547e6"
+    },
+    {
+      "file": "porsche-lahaina.dtb",
+      "bytes": 466419,
+      "sha256": "af1e7a960d0bb27b2644c6a779be57e52e83d7e048c56dcae339bb21a47a193a"
+    },
+    {
+      "file": "porsche-21617-lahaina-overlay.dtbo",
+      "bytes": 1145062,
+      "sha256": "4050e0290acdc0472eaa00b71931c8cb40132cd1dd9739a97ef4e59e6d2fc731"
+    },
+    {
+      "file": "porsche-21617-lahaina-v2.1-overlay.dtbo",
+      "bytes": 1145070,
+      "sha256": "6f533c12816c3975179d03216c787e58110301adba542a7a1928c31394592865"
+    }
+  ],
+  "test_dtbo_image": {
+    "entries": 2,
+    "bytes": 2293760,
+    "page_size": 4096,
+    "partition_size": 25165824,
+    "fits_partition": true
+  },
+  "note": "Standalone kernel compilation and packing tests; integrated images have not yet been built or flashed.",
+  "selected_config": {
+    "CONFIG_ARCH_LAHAINA": "y",
+    "CONFIG_QGKI": "y",
+    "CONFIG_BUILD_ARM64_DT_OVERLAY": "y",
+    "CONFIG_NFC_QTI_I2C": "y",
+    "CONFIG_EROFS_FS": "y",
+    "CONFIG_F2FS_FS": "y",
+    "CONFIG_DM_VERITY": "y",
+    "CONFIG_DM_SNAPSHOT": "y",
+    "CONFIG_BLK_DEV_DM": "y",
+    "CONFIG_BLK_INLINE_ENCRYPTION": "y",
+    "CONFIG_FS_ENCRYPTION": "y",
+    "CONFIG_OPLUS_FINGERPRINT": "y",
+    "CONFIG_QCA_CLD_WLAN": "m"
+  },
+  "kernel_image": {
+    "compiled": true,
+    "bytes": 44331520,
+    "sha256": "61978453f82af9108a8e0722d4c5f91a7d01b34436a4a0118abcaecda3385cd7"
+  },
+  "modules": {
+    "compiled": 88,
+    "all_reference_load_lists_satisfied": true,
+    "inventory": "device/oneplus/sm8350-common/kernel-modules.json"
+  },
+  "standalone_kernel_build_passed": true,
+  "warnings": [
+    "Clang reports a 4208-byte stack frame in oplus_get_bcc_parameters_from_adsp (warning threshold 3042 bytes).",
+    "Kernel MODPOST reports static EXPORT_SYMBOL embms_tm_multicast_recv."
+  ],
+  "generated_ninja_dtb_discovery": "Verified runtime find command, after kernel prerequisite; no source patch required",
+  "generated_ninja_dtbo_discovery": "Verified runtime find command, after kernel prerequisite; no source patch required"
+}

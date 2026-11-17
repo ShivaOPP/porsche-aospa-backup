@@ -1,0 +1,18 @@
+{
+  "source_repositories": 25,
+  "github_forks": 15,
+  "existing_or_gitlab_clo_copies": 10,
+  "branch": "porsche-aospa-shiva",
+  "full_source_archive": false,
+  "binary_archive_uploads": false,
+  "deleted_release": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/tag/source-20261117",
+  "deleted_assets": 108,
+  "deleted_asset_bytes": 163492894657,
+  "unmodified_framework": "AOSPA/android_frameworks_base",
+  "framework_temporary_tags_removed": 25,
+  "runtime_boot_tested": false,
+  "original_branches_preserved": true,
+  "original_branches_restored": 25,
+  "original_user_defaults_restored": true,
+  "port_branch_is_separate": true
+}

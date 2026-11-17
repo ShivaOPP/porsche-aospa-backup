@@ -1,3 +1,12 @@
+# Historical archive recovery plan
+
+The archive assets were deleted at user request. Original user/upstream
+branches are restored on GitHub at their exact previous commits. See
+../reports/restored-original-branches.json. Use ../SOURCE-BUILD.md to build.
+The earlier plan below is retained as history, not current instructions.
+
+---
+
 Older remote branches are saved in release asset branch-recovery.tar.zst.
 Its index.json records exact original heads and corrected branch prerequisites.
 

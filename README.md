@@ -1,3 +1,14 @@
+# Current source publication
+
+Use [SOURCE-BUILD.md](SOURCE-BUILD.md) for the current source-only workflow.
+Required device/dependency repositories and edited platform trees use separate
+porsche-aospa-shiva branches. Original branches and defaults are preserved.
+All uploaded archive assets were removed at user request.
+
+The archive-recovery documentation below is historical and retired.
+
+---
+
 # Porsche AOSPA calcite source backup
 
 This preserves the Realme GT 2 (porsche, SM8350) port validated with a complete

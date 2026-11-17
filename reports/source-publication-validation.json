@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "required_public_repositories": 25,
+  "port_branch": "porsche-aospa-shiva",
+  "restored_original_branches": 25,
+  "original_defaults": [
+    {
+      "repository": "ShivaOPP/android_build",
+      "default": "aospa-android17"
+    },
+    {
+      "repository": "ShivaOPP/android_build_soong",
+      "default": "aospa-android17"
+    },
+    {
+      "repository": "ShivaOPP/android_hardware_google_pixel",
+      "default": "aospa-android17"
+    },
+    {
+      "repository": "ShivaOPP/android_hardware_interfaces",
+      "default": "aospa-android17"
+    },
+    {
+      "repository": "ShivaOPP/android_vendor_aospa",
+      "default": "aospa-android17"
+    }
+  ],
+  "blossom_original_commit": "69269c7def8364cfe7c9007667ae5ed13ff01bbd",
+  "blossom_files_verified": [
+    "products/blossom/aospa_blossom.mk",
+    "products/blossom/beans.xml"
+  ],
+  "archives_removed": true,
+  "dry_build": {
+    "command": "m -j16 nothing",
+    "exit": 0,
+    "USE_RBE": false,
+    "log_sha256": "3d0e48a205cdb39f105e57753cad1a3fa93ad05326901fc7f601a4971cf73bb8"
+  },
+  "runtime_boot_tested": false
+}

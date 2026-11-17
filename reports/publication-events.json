@@ -210,5 +210,162 @@
     "from": "aospa-android17",
     "to": "porsche-aospa-shiva",
     "authorization": "User explicitly requested only the Shiva branch remain; old history is retained until backup verification."
+  },
+  {
+    "repository": "ShivaOPP/android_frameworks_base",
+    "action": "visibility",
+    "from": "PUBLIC",
+    "to": "PRIVATE",
+    "reason": "Undo full-source publication after user narrowed scope; unedited original user repository retained."
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "action": "restore_original_branch",
+    "branch": "aospa-android17",
+    "head": "69269c7def8364cfe7c9007667ae5ed13ff01bbd"
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "action": "restore_original_branch",
+    "branch": "server-backup-20261117",
+    "head": "69269c7def8364cfe7c9007667ae5ed13ff01bbd"
+  },
+  {
+    "repository": "ShivaOPP/android_device_realme_porsche",
+    "action": "restore_original_branch",
+    "branch": "uvite",
+    "head": "93aca6f949e2352216e3875f899b8e1b84446008"
+  },
+  {
+    "repository": "ShivaOPP/android_device_oneplus_sm8350-common",
+    "action": "restore_original_branch",
+    "branch": "seventeen",
+    "head": "d82d9df2ee14f18f2f97c73f87ad05b8364a3c11"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_oplus",
+    "action": "restore_original_branch",
+    "branch": "seventeen",
+    "head": "ff49635b78dbfa43008a3a5ffe428bde494d065f"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_pixelworks_interfaces",
+    "action": "restore_original_branch",
+    "branch": "lineage-24.0",
+    "head": "80fa86ece0ab820b02ff059bc1c1b1f9e5f219a3"
+  },
+  {
+    "repository": "ShivaOPP/android_kernel_oneplus_sm8350",
+    "action": "restore_original_branch",
+    "branch": "seventeen",
+    "head": "de236545b87104877131cf5dd7717760231bf556"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_lineage_interfaces",
+    "action": "restore_original_branch",
+    "branch": "lineage-24.0",
+    "head": "4f6225db0d3c8cda1f59641fe0d7e53bd5e6449a"
+  },
+  {
+    "repository": "ShivaOPP/android_device_lineage_sepolicy",
+    "action": "restore_original_branch",
+    "branch": "lineage-24.0",
+    "head": "dcb3eff48bf8f79c2dc2dfd5e0941fcf967991fc"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_audio",
+    "action": "restore_original_branch",
+    "branch": "uvite-8550",
+    "head": "4560099360b0704dc26c295cb403a88055dcb499"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_display",
+    "action": "restore_original_branch",
+    "branch": "uvite-8550",
+    "head": "d40d593a63a56ae7a7e9616518c7158fbb27e447"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_gps",
+    "action": "restore_original_branch",
+    "branch": "uvite-8550",
+    "head": "40b41634d1bc28efcc93bc0e5740ff4dea50e8a8"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_media",
+    "action": "restore_original_branch",
+    "branch": "uvite-8550",
+    "head": "9533b74b0b2552610fcb94cd00f95cf5a5cb8585"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "action": "restore_original_branch",
+    "branch": "aospa-android17",
+    "head": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "action": "restore_original_branch",
+    "branch": "server-backup-20261117",
+    "head": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom-caf_common",
+    "action": "restore_original_branch",
+    "branch": "lineage-24.0",
+    "head": "4c13a7e651086fc4332a609cff64d2af3d4e60fd"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_thermal",
+    "action": "restore_original_branch",
+    "branch": "calcite",
+    "head": "e6606b4637b49ca0d993661015689bcad2d9f46c"
+  },
+  {
+    "repository": "ShivaOPP/android_packages_apps_EuiccPolicy",
+    "action": "restore_original_branch",
+    "branch": "lineage-24.0",
+    "head": "3b3c28e8e537ffd182def2dedde3987b01a60f0f"
+  },
+  {
+    "repository": "ShivaOPP/android_device_qcom_common",
+    "action": "restore_original_branch",
+    "branch": "calcite",
+    "head": "df812783f7f38702769c2b32f927c6ea1ea9d78a"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "action": "restore_original_branch",
+    "branch": "aospa-android17",
+    "head": "cb895e6e63373036dd61de8828ed206e9027ee91"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "action": "restore_original_branch",
+    "branch": "server-backup-20261117",
+    "head": "cb895e6e63373036dd61de8828ed206e9027ee91"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "action": "restore_original_branch",
+    "branch": "aospa-android17",
+    "head": "8fa2636eac5167c63e69bbfd8234d2baf069d461"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "action": "restore_original_branch",
+    "branch": "server-backup-20261117",
+    "head": "8fa2636eac5167c63e69bbfd8234d2baf069d461"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "action": "restore_original_branch",
+    "branch": "aospa-android17",
+    "head": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "action": "restore_original_branch",
+    "branch": "server-backup-20261117",
+    "head": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a"
   }
 ]

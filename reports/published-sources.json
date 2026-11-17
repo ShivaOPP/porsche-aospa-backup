@@ -5,16 +5,17 @@
     "url": "https://github.com/ShivaOPP/android_device_realme_porsche",
     "visibility": "PUBLIC",
     "branch": "porsche-aospa-shiva",
-    "head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629",
-    "total_commits": 861,
-    "port_commits": 38,
+    "head": "113ffbfc3ebbb3d8b8f0932f1a1e7cccea4a6259",
+    "total_commits": 862,
+    "port_commits": 39,
     "creation": "existing",
     "visibility_changed": false,
     "preexisting_branches_unchanged": {
       "porsche-aospa": "ea2578dff8337074ed0c00ef012347163647b72b",
       "uvite": "93aca6f949e2352216e3875f899b8e1b84446008"
     },
-    "verified": true
+    "verified": true,
+    "previous_published_head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629"
   },
   {
     "path": "device/oneplus/sm8350-common",
@@ -39,9 +40,9 @@
     "url": "https://github.com/ShivaOPP/android_vendor_aospa",
     "visibility": "PUBLIC",
     "branch": "porsche-aospa-shiva",
-    "head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a",
-    "total_commits": 1852,
-    "port_commits": 8,
+    "head": "65a952ce4d5c827c4505ed2ac117a3bae9bd99aa",
+    "total_commits": 1853,
+    "port_commits": 9,
     "creation": "existing",
     "visibility_changed": false,
     "preexisting_branches_unchanged": {
@@ -49,7 +50,8 @@
       "porsche-aospa": "dd7fcfcb42369830e0c8d061599d17dddf4ffcac",
       "server-backup-20261117": "69269c7def8364cfe7c9007667ae5ed13ff01bbd"
     },
-    "verified": true
+    "verified": true,
+    "previous_published_head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a"
   },
   {
     "path": "vendor/realme/porsche",

@@ -1,3 +1,12 @@
+# Current publication status
+
+See repositories.md and restored-original-branches.json for the current source
+repositories and restored original branch heads. Binary/archive uploads were
+removed at user request. Historical validation and recovery records below are
+retained without deleting earlier source or documentation.
+
+---
+
 # Porsche / AOSPA calcite port
 
 This workspace targets AOSPA `calcite`, confirmed from the synced manifest and

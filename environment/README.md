@@ -1,3 +1,12 @@
+# Current build mode
+
+Follow ../SOURCE-BUILD.md for a normal local build with USE_RBE=false.
+Custom RBE client binaries and credentials are not published. Source helper
+scripts and the earlier environment notes below are retained for reference.
+Archive downloads described in historical notes are retired.
+
+---
+
 # Build environment
 
 The validated host used Ubuntu 22.04 x86_64. Recovery requires git, git-lfs,

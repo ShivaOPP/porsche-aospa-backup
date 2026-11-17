@@ -1,11 +1,14 @@
 {
   "projects": 1122,
-  "custom_or_owned_projects": 26,
+  "custom_or_owned_projects": 25,
   "frameworks_base": "2d3deacd4c78b696368d42a7857ac784afda3175",
   "aospa_manifest_revision": "23ede62de91cb6e140e7fac244e3659e116e7c62",
   "rom": "AOSPA calcite",
   "android_version": "17",
   "release": "cp2a",
   "corrected_branch": "porsche-aospa-shiva",
-  "all_heads_refreshed": true
+  "all_heads_refreshed": true,
+  "publication_scope": "Required device/dependency repositories and edited platform trees only.",
+  "full_source_archive": false,
+  "frameworks_base_source": "AOSPA/android_frameworks_base"
 }

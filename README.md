@@ -17,7 +17,9 @@ Use scripts/restore-source.py on a new empty directory. It downloads the source
 snapshot metadata from the source-20261117 release, checks every part's SHA-256,
 and streams the archive into that directory. The snapshot preserves the complete Git object stores and metadata, root
 links, cached LFS/vendor payloads, extra build tools and inspected references.
-The recovery script materializes every source worktree from its exact HEAD.
+The recovery script materializes every source worktree from its exact HEAD
+reassembles the generated GMS prebuilts from their tracked split parts,
+and installs the verified pinned local manifest after the original manifests.
 Each tracked file is stored in its Git database; it is not duplicated as a
 second full checkout in the archive.
 
@@ -73,3 +75,28 @@ Hardware boot, recovery, encryption, fingerprint, NFC/eSE, camera, audio,
 display, sensors, VoLTE, GPS and Dolby need runtime tests. The 128 GB userdata
 image size is unverified. Source-author attribution and already-public upstream
 development keys and historical examples are retained with user authorization.
+
+## Recover the signed OTA or native images
+
+The immutable build-artifacts.json release asset lists ordered parts and the
+complete SHA256 for each large file. Download the parts into a new directory
+and concatenate them in the recorded order. For the validated corrected OTA:
+
+```bash
+gh release download source-20261117 --repo ShivaOPP/porsche-aospa-backup \
+  --pattern 'aospa_porsche-ota.zip.part*' --dir /path/to/new/downloads
+cd /path/to/new/downloads
+cat aospa_porsche-ota.zip.part001 aospa_porsche-ota.zip.part002 > aospa_porsche-ota.zip
+printf '%s  %s\n' 410a3073af2d65f8f20f5bd79becee7ee2448cabba97ea1f27a0bd422543baf0 aospa_porsche-ota.zip | sha256sum -c -
+```
+
+Reassemble validated-target-files.tar.zst the same way, verify its complete
+checksum from build-artifacts.json, then extract it into a new directory.
+IMAGES/ contains the validated native images; META/ preserves their build
+and partition metadata. kernel-debug.tar.zst contains the current and original
+kernel symbols/configuration. The older signed OTA is named explicitly
+before-author-correction and remains available for recovery comparison.
+
+Use `python3 scripts/verify-release.py` to independently stream and verify every
+asset listed in COMPLETE.json. The metadata-only option skips the large asset
+downloads and states that limitation explicitly.

@@ -21,3 +21,22 @@ source build/envsetup.sh
 lunch aospa_porsche-cp2a-userdebug
 m -j16 otapackage check-vintf-all selinux_policy
 ```
+
+For RBE on a fresh network checkout, first extract the separate
+buildbuddyfix.tar.zst release asset at the source root. Source-snapshot recovery
+already includes it. Install the supplied helper scripts under your own ~/.rbe,
+adjust their checkout path and configure fresh credentials, then run:
+
+```bash
+export AOSPA_SKIP_DEPENDENCIES=true
+source ~/.rbe/rbe-auto.sh
+rbe_auto "$PWD"
+source build/envsetup.sh
+lunch aospa_porsche-cp2a-userdebug
+m -j16 otapackage check-vintf-all selinux_policy
+```
+
+The full snapshot supports an offline source recovery and local build. A fresh
+network sync still depends on upstream hosting/access, including CodeLinaro.
+The source Git databases and cached LFS payloads are preserved so that recovery
+does not depend on those upstream servers remaining available.

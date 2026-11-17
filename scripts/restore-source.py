@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -19,6 +20,34 @@ BASE = "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/sourc
 def fetch(name):
     with urllib.request.urlopen(BASE + name, timeout=120) as response:
         return response.read()
+
+
+
+def restore_generated_gms(destination):
+    """Reassemble the ignored prebuilts from their verified tracked split parts."""
+    setup = destination / "vendor/google/gms/vendorsetup.sh"
+    if not setup.exists():
+        return
+    entries = re.findall(r'echo "([0-9a-f]{64})  ([^"]+)"', setup.read_text())
+    for expected, relative in entries:
+        path = destination / relative
+        if not path.resolve().is_relative_to(destination.resolve()):
+            raise RuntimeError("Generated prebuilt escapes the restored source: " + relative)
+        if not path.exists():
+            parts = sorted(path.parent.glob(path.name + ".part*"))
+            if not parts:
+                raise RuntimeError("Missing tracked prebuilt parts: " + relative)
+            with path.open("xb") as output:
+                for part in parts:
+                    with part.open("rb") as source:
+                        shutil.copyfileobj(source, output, 8 * 1024 * 1024)
+        checksum = hashlib.sha256()
+        with path.open("rb") as source:
+            for block in iter(lambda: source.read(8 * 1024 * 1024), b""):
+                checksum.update(block)
+        if checksum.hexdigest() != expected:
+            raise RuntimeError("Reassembled prebuilt checksum mismatch: " + relative)
+    print(f"Reassembled and verified {len(entries)} offline GMS prebuilts", flush=True)
 
 
 def main():
@@ -104,6 +133,17 @@ def main():
                 raise RuntimeError("Restored tracked files differ from HEAD: " + project["path"])
             if index % 25 == 0 or index == len(projects):
                 print(f"Materialized and verified {index}/{len(projects)} Git worktrees", flush=True)
+    restore_generated_gms(destination)
+    # Pin every project after the original local manifests, preserving the tested revisions.
+    manifest = fetch("pinned-local.xml")
+    manifest_asset = next(a for a in complete["assets"] if a["name"] == "pinned-local.xml")
+    if hashlib.sha256(manifest).hexdigest() != manifest_asset["sha256"]:
+        raise SystemExit("Pinned local manifest checksum mismatch.")
+    local = destination / ".repo/local_manifests/zzz-porsche-pinned.xml"
+    if local.exists() and local.read_bytes() != manifest:
+        raise SystemExit("Existing final pinned manifest differs; no overwrite: " + str(local))
+    local.parent.mkdir(parents=True, exist_ok=True)
+    local.write_bytes(manifest)
     print("Complete source snapshot restored. Use environment/README.md to build.")
 
 

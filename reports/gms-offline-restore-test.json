@@ -1,0 +1,5 @@
+{
+  "pass": true,
+  "scope": "Offline recovery of Gmail2 from tracked source split parts into a new temporary root, using the actual restore-source.py function and native checksum. Originals untouched.",
+  "bytes": 162503531
+}

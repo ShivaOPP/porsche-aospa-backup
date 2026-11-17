@@ -4,7 +4,8 @@ This preserves the Realme GT 2 (porsche, SM8350) port validated with a complete
 signed AOSPA calcite / Android 17 OTA build. It has not been boot-tested.
 
 The porsche-aospa-shiva branches in the linked ShivaOPP repositories contain the port.
-Older port branches are preserved in recovery bundles before their remote removal.
+Older port branches are preserved in the checksum-verified recovery archive
+before their remote removal. See manifests/branch-recovery.md.
 Only porsche-aospa-shiva remains as the active/default port branch.
 default.xml pins every synced project to its
 exact source commit and includes every custom device/platform dependency.

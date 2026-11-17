@@ -1,0 +1,752 @@
+[
+  {
+    "repository": "ShivaOPP/android_device_realme_porsche",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "ea2578dff8337074ed0c00ef012347163647b72b",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629"
+  },
+  {
+    "repository": "ShivaOPP/android_device_realme_porsche",
+    "deleted_branch": "uvite",
+    "old_head": "93aca6f949e2352216e3875f899b8e1b84446008",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629"
+  },
+  {
+    "repository": "ShivaOPP/android_device_oneplus_sm8350-common",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "e6487ae5270ed5b2d966c4955f5df5fa127c7c81",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "ddca46ae06aa15c0c392113ba81267c2a7d8ee9e"
+  },
+  {
+    "repository": "ShivaOPP/android_device_oneplus_sm8350-common",
+    "deleted_branch": "seventeen",
+    "old_head": "d82d9df2ee14f18f2f97c73f87ad05b8364a3c11",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "ddca46ae06aa15c0c392113ba81267c2a7d8ee9e"
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "deleted_branch": "aospa-android17",
+    "old_head": "69269c7def8364cfe7c9007667ae5ed13ff01bbd",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a"
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "dd7fcfcb42369830e0c8d061599d17dddf4ffcac",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a"
+  },
+  {
+    "repository": "ShivaOPP/android_vendor_aospa",
+    "deleted_branch": "server-backup-20261117",
+    "old_head": "69269c7def8364cfe7c9007667ae5ed13ff01bbd",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "9dfb75a5d387cba2be36fa30c3ed07335001a37a"
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_realme_porsche",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "e5b16dbd773f87b7381153ea5d04e54b3a4e29f6",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "8c2cb02435ecc26b8212acf621a2bf7ae5810fc2"
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_oneplus_sm8350-common",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "83f7a42393f2ccc7a72df8735123dc5524273b07",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "b4377b634479d5201d2183c74d73b08d515b2025"
+  },
+  {
+    "repository": "ShivaOPP/proprietary_vendor_oplus_camera",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "113dc7013ed9a416e7d6ccaf89ea8ef6ee196923",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "45fb4221acdbd82396b6fe4d8931bb912db86594"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_oplus",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "da1b5cc6b9e1d844c65941bcb2219ff5f8549499",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "2197b2f950faf1e7a79168b67254029060451f08"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_oplus",
+    "deleted_branch": "seventeen",
+    "old_head": "ff49635b78dbfa43008a3a5ffe428bde494d065f",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "2197b2f950faf1e7a79168b67254029060451f08"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_dolby",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "73098f1ef375b42ccae1141ea0ec1f0515695425",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "73098f1ef375b42ccae1141ea0ec1f0515695425"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_pixelworks_interfaces",
+    "deleted_branch": "lineage-24.0",
+    "old_head": "80fa86ece0ab820b02ff059bc1c1b1f9e5f219a3",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "462ccb7db689de0a92cafdde5efb3c81fa617448"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_pixelworks_interfaces",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "462ccb7db689de0a92cafdde5efb3c81fa617448",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "462ccb7db689de0a92cafdde5efb3c81fa617448"
+  },
+  {
+    "repository": "ShivaOPP/android_kernel_oneplus_sm8350",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "69a5611a6c172e03f4795e02951cc56f624536df",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "bc840733591d5a49d0ebe45c6cba6f8aa51f23f3"
+  },
+  {
+    "repository": "ShivaOPP/android_kernel_oneplus_sm8350",
+    "deleted_branch": "seventeen",
+    "old_head": "de236545b87104877131cf5dd7717760231bf556",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "bc840733591d5a49d0ebe45c6cba6f8aa51f23f3"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_lineage_interfaces",
+    "deleted_branch": "lineage-24.0",
+    "old_head": "4f6225db0d3c8cda1f59641fe0d7e53bd5e6449a",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "0b3769e6979788c70be6669c3ac4f790a5a05fc4"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_lineage_interfaces",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "540e86480a8d88c8c616bbd030a976be3c02eaee",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "0b3769e6979788c70be6669c3ac4f790a5a05fc4"
+  },
+  {
+    "repository": "ShivaOPP/android_device_lineage_sepolicy",
+    "deleted_branch": "lineage-24.0",
+    "old_head": "dcb3eff48bf8f79c2dc2dfd5e0941fcf967991fc",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "96a7247e48d7e2e7127c2f090665e856de63247c"
+  },
+  {
+    "repository": "ShivaOPP/android_device_lineage_sepolicy",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "96a7247e48d7e2e7127c2f090665e856de63247c",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "96a7247e48d7e2e7127c2f090665e856de63247c"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_audio",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "e25d3f09faf379e98b8ed68bda9173d12974a33f",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "93b5338051c6d2cd9d4098728e0f090a2633192a"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_audio",
+    "deleted_branch": "uvite-8550",
+    "old_head": "4560099360b0704dc26c295cb403a88055dcb499",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "93b5338051c6d2cd9d4098728e0f090a2633192a"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_display",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "126670adf39d253ee58323239ec7bd05770ac7d8",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "126670adf39d253ee58323239ec7bd05770ac7d8"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_display",
+    "deleted_branch": "uvite-8550",
+    "old_head": "d40d593a63a56ae7a7e9616518c7158fbb27e447",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "126670adf39d253ee58323239ec7bd05770ac7d8"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_gps",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "54e63cb6ed999ba4802f00d546eee50b985d69ad",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "8d3dc3af848187967d2379cc46df8d4d4dde5ea9"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_gps",
+    "deleted_branch": "uvite-8550",
+    "old_head": "40b41634d1bc28efcc93bc0e5740ff4dea50e8a8",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "8d3dc3af848187967d2379cc46df8d4d4dde5ea9"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_media",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "64b5ade361daa23f2b1299adb587183722aaaf30",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "64b5ade361daa23f2b1299adb587183722aaaf30"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_media",
+    "deleted_branch": "uvite-8550",
+    "old_head": "9533b74b0b2552610fcb94cd00f95cf5a5cb8585",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "64b5ade361daa23f2b1299adb587183722aaaf30"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "deleted_branch": "aospa-android17",
+    "old_head": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "93ba0f459b9c97cd34f00cb59063d7c117e71c35"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "6b53454cbdf7aa13d142ebb7054b9cb9281f2126",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "93ba0f459b9c97cd34f00cb59063d7c117e71c35"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_google_pixel",
+    "deleted_branch": "server-backup-20261117",
+    "old_head": "383fb1c0ed5eb8d63df6f6f3b4803a7cb076530f",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "93ba0f459b9c97cd34f00cb59063d7c117e71c35"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom-caf_common",
+    "deleted_branch": "lineage-24.0",
+    "old_head": "4c13a7e651086fc4332a609cff64d2af3d4e60fd",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom-caf_common",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "5cd53603d36aaddd9ba9d882dad5411f1b30fbed"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_thermal",
+    "deleted_branch": "calcite",
+    "old_head": "e6606b4637b49ca0d993661015689bcad2d9f46c",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "339ecff03f7509351035c6d33cef2b5768c86f6d"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_qcom_thermal",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "339ecff03f7509351035c6d33cef2b5768c86f6d",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "339ecff03f7509351035c6d33cef2b5768c86f6d"
+  },
+  {
+    "repository": "ShivaOPP/android_packages_apps_EuiccPolicy",
+    "deleted_branch": "lineage-24.0",
+    "old_head": "3b3c28e8e537ffd182def2dedde3987b01a60f0f",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "7232f94f1a908272d4b72bf13277a54c889f9f2c"
+  },
+  {
+    "repository": "ShivaOPP/android_packages_apps_EuiccPolicy",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "7232f94f1a908272d4b72bf13277a54c889f9f2c",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "7232f94f1a908272d4b72bf13277a54c889f9f2c"
+  },
+  {
+    "repository": "ShivaOPP/android_device_qcom_common",
+    "deleted_branch": "calcite",
+    "old_head": "df812783f7f38702769c2b32f927c6ea1ea9d78a",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "e553f6de3fadd5f6707d7e092d84428c5f7f64f6"
+  },
+  {
+    "repository": "ShivaOPP/android_device_qcom_common",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "acc799abbd32464d8b558723ebdff7739158e0ca",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "e553f6de3fadd5f6707d7e092d84428c5f7f64f6"
+  },
+  {
+    "repository": "ShivaOPP/sepolicy",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "b0e119091f787be8cb4d22a8a4db6fb98e7b43af",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "8cb35f57bb384bee852e143313dec05c94f8b799"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "deleted_branch": "aospa-android17",
+    "old_head": "cb895e6e63373036dd61de8828ed206e9027ee91",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "287be02994cf12c93c224be16247d5cae427d92e"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "97df0ea4521f519c46b4640039e1488051db5dcf",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "287be02994cf12c93c224be16247d5cae427d92e"
+  },
+  {
+    "repository": "ShivaOPP/android_build",
+    "deleted_branch": "server-backup-20261117",
+    "old_head": "cb895e6e63373036dd61de8828ed206e9027ee91",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "287be02994cf12c93c224be16247d5cae427d92e"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "deleted_branch": "aospa-android17",
+    "old_head": "8fa2636eac5167c63e69bbfd8234d2baf069d461",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "868980ac268f93a1e193f41942d160ef3c9dfd20"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "198c84cd85dde73dd7e8963cfd7a76afafd4e044",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "868980ac268f93a1e193f41942d160ef3c9dfd20"
+  },
+  {
+    "repository": "ShivaOPP/android_build_soong",
+    "deleted_branch": "server-backup-20261117",
+    "old_head": "8fa2636eac5167c63e69bbfd8234d2baf069d461",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "868980ac268f93a1e193f41942d160ef3c9dfd20"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "deleted_branch": "aospa-android17",
+    "old_head": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "22324f6348b773cef313019e1b55117972eef13c"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "deleted_branch": "porsche-aospa",
+    "old_head": "34068eacac0738c3b778cede7360d89e7f44d6ae",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "22324f6348b773cef313019e1b55117972eef13c"
+  },
+  {
+    "repository": "ShivaOPP/android_hardware_interfaces",
+    "deleted_branch": "server-backup-20261117",
+    "old_head": "785d43bcc61e6b2bd0103d4ef785d8fdb67c8a0a",
+    "recovery_asset": {
+      "name": "branch-recovery.tar.zst",
+      "bytes": 976173438,
+      "sha256": "829ce351bf3b2c2aec94e2ba12fe764ffbad55922f39cf2b5237f3ff2ce041c7",
+      "url": "https://github.com/ShivaOPP/porsche-aospa-backup/releases/download/source-20261117/branch-recovery.tar.zst",
+      "id": 759030722,
+      "verified": true
+    },
+    "corrected_branch": "porsche-aospa-shiva",
+    "corrected_head": "22324f6348b773cef313019e1b55117972eef13c"
+  }
+]

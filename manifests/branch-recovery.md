@@ -1,11 +1,15 @@
 Older remote branches are saved in release asset branch-recovery.tar.zst.
-Its index.json records exact original heads, their source paths and the
-corrected branch used as a prerequisite for incremental Git bundles.
+Its index.json records exact original heads and corrected branch prerequisites.
 
-These are recovery records, not active build branches. To inspect an older
-branch, first clone the corresponding full-history porsche-aospa-shiva branch,
-then run `git bundle verify /path/to/repository.bundle` followed by
-`git fetch /path/to/repository.bundle 'refs/backup-precleanup/ShivaOPP/*:refs/backup-precleanup/ShivaOPP/*'`.
-If no bundle is listed, every old commit is already reachable from the corrected
-full-history branch. Original local a17-port branches also remain in the source
-snapshot. The old port attribution is retained only in this recovery history.
+First clone the corresponding full-history porsche-aospa-shiva branch.
+Extract branch-recovery.tar.zst into a separate directory, then run:
+
+```bash
+python3 scripts/restore-branch-history.py /path/to/clone /path/to/branch-recovery device/realme/porsche
+```
+
+The script verifies and imports each incremental bundle, then reconstructs all
+original refs under refs/backup-precleanup/ShivaOPP/. Ancestor branches need no
+additional objects; their commits are already in the corrected full history.
+Existing recovery refs are never overwritten. The active build branch stays
+unchanged. Original local a17-port branches are also in the source snapshot.

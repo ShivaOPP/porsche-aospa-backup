@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "scope": "Fresh GitHub full-history corrected Porsche branch plus incremental old-branch bundle; no source object alternates used. Ancestor branches are recreated from already-reachable commits.",
+  "repository": "ShivaOPP/android_device_realme_porsche",
+  "corrected_head": "bbfd2e9d6a29625b36ee91df0e291632a4bd6629",
+  "restored_old_heads": {
+    "porsche-aospa": "ea2578dff8337074ed0c00ef012347163647b72b",
+    "uvite": "93aca6f949e2352216e3875f899b8e1b84446008"
+  }
+}

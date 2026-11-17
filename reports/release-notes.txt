@@ -1,0 +1,3 @@
+Source recovery upload is IN PROGRESS.
+Do not erase the server disk until COMPLETE.json exists and its assets verify.
+The signed OTA passed native build and static image checks; hardware boot is untested.
